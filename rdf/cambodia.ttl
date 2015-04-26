@@ -1,0 +1,43 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix dbpprop: <http://dbpedia.org/property/> .
+@prefix adb: <http://ryac.ca/ns/adb/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://ryac.ca/ns/adb/country/Cambodia> owl:sameAs dbpedia:Cambodia
+  ; adb:populationFor <http://ryac.ca/ns/adb/country/Cambodia/1998>
+    , <http://ryac.ca/ns/adb/country/Cambodia/1999>
+    , <http://ryac.ca/ns/adb/country/Cambodia/2000>
+    , <http://ryac.ca/ns/adb/country/Cambodia/2001>
+    , <http://ryac.ca/ns/adb/country/Cambodia/2002>
+    , <http://ryac.ca/ns/adb/country/Cambodia/2003>
+    , <http://ryac.ca/ns/adb/country/Cambodia/2004>
+  ; adb:laborForceFor <http://ryac.ca/ns/adb/country/Cambodia/1998>
+    , <http://ryac.ca/ns/adb/country/Cambodia/1999>
+    , <http://ryac.ca/ns/adb/country/Cambodia/2000>
+    , <http://ryac.ca/ns/adb/country/Cambodia/2001>
+    , <http://ryac.ca/ns/adb/country/Cambodia/2002>
+    , <http://ryac.ca/ns/adb/country/Cambodia/2003>
+    , <http://ryac.ca/ns/adb/country/Cambodia/2004>
+.
+
+<http://ryac.ca/ns/adb/country/Cambodia/1998> adb:populationDensity "244"^^xsd:float
+  ; adb:populationPercentChange "2.53"^^xsd:float
+  ; adb:populationUrban "14.8"^^xsd:float
+  ; adb:employedTotal "3936.23"^^xsd:float
+  ; adb:unemployedTotal "112.23"^^xsd:float
+  ; adb:laborforcePercentChange "17.4"^^xsd:float
+  ; dbpprop:populationCensusYear "1998"^^xsd:int
+  ; adb:year "1998"^^xsd:int
+.
+
+<http://ryac.ca/ns/adb/country/Cambodia/1999> adb:populationDensity "250"^^xsd:float
+  ; adb:populationPercentChange "6.22"^^xsd:float
+  ; adb:populationUrban "29.1"^^xsd:float
+  ; adb:employedTotal "2342.39"^^xsd:float
+  ; adb:unemployedTotal "232.99"^^xsd:float
+  ; adb:laborforcePercentChange "4.1"^^xsd:float
+  ; dbpprop:populationCensusYear "1999"^^xsd:int
+  ; adb:year "1999"^^xsd:int
+.
