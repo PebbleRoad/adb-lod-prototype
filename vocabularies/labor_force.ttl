@@ -1,0 +1,24 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix adb: <http://ryac.ca/ns/adb/> .
+
+# --- classes ----------------------------
+
+adb:LaborForceFor a rdfs:Class, owl:Class ;
+  rdfs:label "Labor Force and Employment"@en ;
+  rdfs:comment "Main topic for labor force and employment"@en .
+
+# --- properties ------------------------
+
+adb:employedTotal a rdf:Property, owl:ObjectProperty ;
+  rdfs:label "Employed, total"@en ;
+  rdfs:comment "Th, Ending 1231"@en .
+
+adb:unemployedTotal a rdf:Property, owl:ObjectProperty ;
+  rdfs:label "Unemployed, total"@en ;
+  rdfs:comment "Th, Ending 1231"@en .
+
+adb:laborforcePercentChange a rdf:Property, owl:ObjectProperty ;
+  rdfs:label "Labor Force (% change)"@en ;
+  rdfs:comment "percent, Ending 1231"@en .

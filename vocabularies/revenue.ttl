@@ -1,0 +1,16 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix adb: <http://ryac.ca/ns/adb/> .
+
+# --- classes ----------------------------
+
+adb:GovernmentFinanceFor a rdfs:Class, owl:Class ;
+  rdfs:label "Government Finance"@en ;
+  rdfs:comment "Main topic for government finance"@en .
+
+# --- properties ------------------------
+
+adb:revenueAndGrants a rdf:Property, owl:ObjectProperty ;
+  rdfs:label "Central Government - Total revenue and grants"@en ;
+  rdfs:comment "Mn Malaysian Ringgit, Ending 1231."@en .

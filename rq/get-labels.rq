@@ -1,0 +1,8 @@
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+select distinct ?label ?comment
+where {
+  <http://ryac.ca/ns/adb/country/Cambodia> ?p ?o .
+  ?p rdfs:label ?label .
+  ?p rdfs:comment ?comment .
+}

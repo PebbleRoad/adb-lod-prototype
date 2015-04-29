@@ -1,23 +1,24 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix adb: <http://ryac.ca/ns/adb#> .
+@prefix adb: <http://ryac.ca/ns/adb/> .
 
-adb:Population a rdfs:Class, owl:Class ;
-  rdfs:label "Population" ;
-  rdfs:comment "Population details of a country" .
+# --- classes ----------------------------
 
-adb:population_density
-  rdf:type rdf:Property ;
-  rdfs:label "Population Density" ;
-  rdfs:comment "Persons per square kilometer." .
+adb:PopulationFor a rdfs:Class, owl:Class ;
+  rdfs:label "Population"@en ;
+  rdfs:comment "Population details of a country"@en .
 
-adb:population_urban
-  rdf:type rdf:Property ;
-  rdfs:label "Urban Population" ;
-  rdfs:comment "Percent of total population." .
+# --- properties ------------------------
 
-adb:population_annual_change
-  rdf:type rdf:Property ;
-  rdfs:label "Annual change in population" ;
-  rdfs:comment "Annual change is in percent." .
+adb:populationDensity a rdf:Property, owl:ObjectProperty ;
+  rdfs:label "Population density"@en ;
+  rdfs:comment "Persons per square kilometer."@en .
+
+adb:populationUrban a rdf:Property, owl:ObjectProperty ;
+  rdfs:label "Urban population (% of total)"@en ;
+  rdfs:comment "Percent of total population."@en .
+
+adb:populationPercentChange a rdf:Property, owl:ObjectProperty ;
+  rdfs:label "Population (% change)"@en ;
+  rdfs:comment "Annual change is in percent."@en .

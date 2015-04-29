@@ -6,7 +6,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://ryac.ca/ns/adb/country/Malaysia> owl:sameAs dbpedia:Malaysia
- ; adb:energyFor
+ ; adb:EnergyFor
      <http://ryac.ca/ns/adb/country/Malaysia/1988> 
    , <http://ryac.ca/ns/adb/country/Malaysia/1989> 
    , <http://ryac.ca/ns/adb/country/Malaysia/1990> 
@@ -33,7 +33,7 @@
    , <http://ryac.ca/ns/adb/country/Malaysia/2011> 
    , <http://ryac.ca/ns/adb/country/Malaysia/2012> 
    , <http://ryac.ca/ns/adb/country/Malaysia/2013> 
- ; adb:laborForceFor
+ ; adb:LaborForceFor
      <http://ryac.ca/ns/adb/country/Malaysia/1988> 
    , <http://ryac.ca/ns/adb/country/Malaysia/1989> 
    , <http://ryac.ca/ns/adb/country/Malaysia/1990> 
@@ -60,7 +60,7 @@
    , <http://ryac.ca/ns/adb/country/Malaysia/2011> 
    , <http://ryac.ca/ns/adb/country/Malaysia/2012> 
    , <http://ryac.ca/ns/adb/country/Malaysia/2013> 
- ; adb:populationFor
+ ; adb:PopulationFor
      <http://ryac.ca/ns/adb/country/Malaysia/1988> 
    , <http://ryac.ca/ns/adb/country/Malaysia/1989> 
    , <http://ryac.ca/ns/adb/country/Malaysia/1990> 
@@ -87,7 +87,7 @@
    , <http://ryac.ca/ns/adb/country/Malaysia/2011> 
    , <http://ryac.ca/ns/adb/country/Malaysia/2012> 
    , <http://ryac.ca/ns/adb/country/Malaysia/2013> 
- ; adb:revenueAndGrantsFor
+ ; adb:GovernmentFinanceFor
      <http://ryac.ca/ns/adb/country/Malaysia/1989> 
    , <http://ryac.ca/ns/adb/country/Malaysia/1990> 
    , <http://ryac.ca/ns/adb/country/Malaysia/1991> 

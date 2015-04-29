@@ -6,7 +6,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://ryac.ca/ns/adb/country/Cambodia> owl:sameAs dbpedia:Cambodia
- ; adb:populationFor
+ ; adb:PopulationFor
      <http://ryac.ca/ns/adb/country/Cambodia/1988> 
    , <http://ryac.ca/ns/adb/country/Cambodia/1989> 
    , <http://ryac.ca/ns/adb/country/Cambodia/1990> 
@@ -33,7 +33,7 @@
    , <http://ryac.ca/ns/adb/country/Cambodia/2011> 
    , <http://ryac.ca/ns/adb/country/Cambodia/2012> 
    , <http://ryac.ca/ns/adb/country/Cambodia/2013> 
- ; adb:revenueAndGrantsFor
+ ; adb:GovernmentFinanceFor
      <http://ryac.ca/ns/adb/country/Cambodia/1991> 
    , <http://ryac.ca/ns/adb/country/Cambodia/1992> 
    , <http://ryac.ca/ns/adb/country/Cambodia/1993> 
@@ -57,7 +57,7 @@
    , <http://ryac.ca/ns/adb/country/Cambodia/2011> 
    , <http://ryac.ca/ns/adb/country/Cambodia/2012> 
    , <http://ryac.ca/ns/adb/country/Cambodia/2013> 
- ; adb:laborForceFor
+ ; adb:LaborForceFor
      <http://ryac.ca/ns/adb/country/Cambodia/1993> 
    , <http://ryac.ca/ns/adb/country/Cambodia/1994> 
    , <http://ryac.ca/ns/adb/country/Cambodia/1995> 
@@ -79,7 +79,7 @@
    , <http://ryac.ca/ns/adb/country/Cambodia/2011> 
    , <http://ryac.ca/ns/adb/country/Cambodia/2012> 
    , <http://ryac.ca/ns/adb/country/Cambodia/2013> 
- ; adb:energyFor
+ ; adb:EnergyFor
      <http://ryac.ca/ns/adb/country/Cambodia/1996> 
    , <http://ryac.ca/ns/adb/country/Cambodia/1997> 
    , <http://ryac.ca/ns/adb/country/Cambodia/1998> 

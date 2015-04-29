@@ -13,18 +13,17 @@ baseUrl = 'http://ryac.ca/ns/adb/'
 obj = {}
 
 labels = [
-	['revenueAndGrants', '^^xsd:float', 'revenueAndGrantsFor']
-	['electricityProduction', '^^xsd:float', 'energyFor']
-	['employedTotal', '^^xsd:float', 'laborForceFor']
-	['unemployedTotal', '^^xsd:float', 'laborForceFor']
-	['laborforcePercentChange', '^^xsd:float', 'laborForceFor']
-	['populationDensity', '^^xsd:float', 'populationFor']
-	['populationPercentChange', '^^xsd:float', 'populationFor']
-	['populationUrban', '^^xsd:float', 'populationFor']
+	['revenueAndGrants', '^^xsd:float', 'GovernmentFinanceFor']
+	['electricityProduction', '^^xsd:float', 'EnergyFor']
+	['employedTotal', '^^xsd:float', 'LaborForceFor']
+	['unemployedTotal', '^^xsd:float', 'LaborForceFor']
+	['laborforcePercentChange', '^^xsd:float', 'LaborForceFor']
+	['populationDensity', '^^xsd:float', 'PopulationFor']
+	['populationPercentChange', '^^xsd:float', 'PopulationFor']
+	['populationUrban', '^^xsd:float', 'PopulationFor']
 ]
 
 file  = '@prefix owl: <http://www.w3.org/2002/07/owl#> .\n'
-file += '@prefix dbpedia: <http://dbpedia.org/resource/> .\n'
 file += '@prefix dbpedia: <http://dbpedia.org/resource/> .\n'
 file += '@prefix dbpprop: <http://dbpedia.org/property/> .\n'
 file += '@prefix adb: <http://ryac.ca/ns/adb/> .\n'

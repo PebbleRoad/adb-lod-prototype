@@ -6,13 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:ryac/adb-lod-prototype.git"
+  },
   "author": "Ryan Yacyshyn <ryan@pebbleroad.com>",
   "license": "ISC",
   "devDependencies": {
-    "csv": "^0.4.2",
     "coffee-script": "^1.9.2",
+    "csv": "^0.4.2",
     "nimble": "0.0.2",
-    "underscore": "^1.8.3",
-    "trim": "0.0.1"
+    "trim": "0.0.1",
+    "underscore": "^1.8.3"
   }
 }

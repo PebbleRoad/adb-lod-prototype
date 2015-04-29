@@ -1,0 +1,26 @@
+# select distinct ?s ?o
+# where {
+# 	service <http://dydra.com/ryac/adb/sparql> {
+# 		select ?s ?o
+# 		where { ?s a ?o . }
+# 	}
+# }
+
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix adb: <http://ryac.ca/ns/adb/>
+prefix foaf: <http://xmlns.com/foaf/0.1/>
+
+select distinct ?c ?name
+from <http://dbpedia.org/resource/Malaysia>
+where {
+	?c foaf:name ?name
+	#service <http://dydra.com/ryac/adb/sparql> {
+	#	select ?c
+	#	where { ?s owl:sameAs ?c . }
+	#}
+	#service <http://dbpedia.org/sparql> {
+	#	select ?name
+	#	where { ?c foaf:name ?name . }
+	#}
+}
+limit 10
