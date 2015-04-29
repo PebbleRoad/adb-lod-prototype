@@ -1,121 +1,120 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix dbpedia: <http://dbpedia.org/resource/> .
-@prefix dbpedia: <http://dbpedia.org/resource/> .
 @prefix dbpprop: <http://dbpedia.org/property/> .
-@prefix adb: <http://ryac.ca/ns/adb/> .
+@prefix adb: <http://demos.pebbleroad.com/adb/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://ryac.ca/ns/adb/country/Malaysia> owl:sameAs dbpedia:Malaysia
+<http://demos.pebbleroad.com/adb/Country/Malaysia> owl:sameAs dbpedia:Malaysia
  ; adb:EnergyFor
-     <http://ryac.ca/ns/adb/country/Malaysia/1988> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/1989> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/1990> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/1991> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/1992> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/1993> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/1994> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/1995> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/1996> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/1997> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/1998> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/1999> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2000> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2001> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2002> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2003> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2004> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2005> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2006> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2007> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2008> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2009> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2010> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2011> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2012> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2013> 
+     <http://demos.pebbleroad.com/adb/Country/Malaysia/1988> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/1989> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/1990> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/1991> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/1992> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/1993> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/1994> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/1995> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/1996> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/1997> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/1998> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/1999> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2000> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2001> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2002> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2003> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2004> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2005> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2006> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2007> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2008> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2009> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2010> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2011> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2012> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2013> 
  ; adb:LaborForceFor
-     <http://ryac.ca/ns/adb/country/Malaysia/1988> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/1989> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/1990> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/1991> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/1992> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/1993> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/1994> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/1995> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/1996> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/1997> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/1998> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/1999> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2000> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2001> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2002> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2003> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2004> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2005> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2006> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2007> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2008> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2009> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2010> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2011> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2012> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2013> 
+     <http://demos.pebbleroad.com/adb/Country/Malaysia/1988> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/1989> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/1990> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/1991> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/1992> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/1993> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/1994> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/1995> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/1996> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/1997> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/1998> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/1999> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2000> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2001> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2002> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2003> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2004> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2005> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2006> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2007> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2008> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2009> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2010> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2011> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2012> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2013> 
  ; adb:PopulationFor
-     <http://ryac.ca/ns/adb/country/Malaysia/1988> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/1989> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/1990> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/1991> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/1992> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/1993> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/1994> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/1995> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/1996> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/1997> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/1998> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/1999> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2000> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2001> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2002> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2003> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2004> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2005> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2006> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2007> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2008> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2009> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2010> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2011> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2012> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2013> 
+     <http://demos.pebbleroad.com/adb/Country/Malaysia/1988> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/1989> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/1990> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/1991> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/1992> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/1993> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/1994> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/1995> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/1996> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/1997> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/1998> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/1999> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2000> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2001> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2002> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2003> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2004> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2005> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2006> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2007> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2008> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2009> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2010> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2011> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2012> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2013> 
  ; adb:GovernmentFinanceFor
-     <http://ryac.ca/ns/adb/country/Malaysia/1989> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/1990> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/1991> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/1992> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/1993> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/1994> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/1995> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/1996> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/1997> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/1998> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/1999> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2000> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2001> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2002> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2003> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2004> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2005> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2006> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2007> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2008> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2009> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2010> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2011> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2012> 
-   , <http://ryac.ca/ns/adb/country/Malaysia/2013> 
+     <http://demos.pebbleroad.com/adb/Country/Malaysia/1989> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/1990> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/1991> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/1992> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/1993> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/1994> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/1995> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/1996> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/1997> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/1998> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/1999> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2000> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2001> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2002> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2003> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2004> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2005> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2006> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2007> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2008> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2009> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2010> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2011> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2012> 
+   , <http://demos.pebbleroad.com/adb/Country/Malaysia/2013> 
 . 
 
-<http://ryac.ca/ns/adb/country/Malaysia/1988> adb:electricityProduction "19314"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Malaysia/1988> adb:electricityProduction "19314"^^xsd:float
   ; adb:employedTotal "6176"^^xsd:float
   ; adb:unemployedTotal "482"^^xsd:float
   ; adb:laborforcePercentChange "3.1129"^^xsd:float
@@ -124,7 +123,7 @@
   ; dbpprop:populationCensusYear "1988"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Malaysia/1989> adb:revenueAndGrants "25273"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Malaysia/1989> adb:revenueAndGrants "25273"^^xsd:float
   ; adb:electricityProduction "21473"^^xsd:float
   ; adb:employedTotal "6390"^^xsd:float
   ; adb:unemployedTotal "460"^^xsd:float
@@ -134,7 +133,7 @@
   ; dbpprop:populationCensusYear "1989"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Malaysia/1990> adb:revenueAndGrants "29521"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Malaysia/1990> adb:revenueAndGrants "29521"^^xsd:float
   ; adb:electricityProduction "25263"^^xsd:float
   ; adb:employedTotal "6686"^^xsd:float
   ; adb:unemployedTotal "356"^^xsd:float
@@ -144,7 +143,7 @@
   ; dbpprop:populationCensusYear "1990"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Malaysia/1991> adb:revenueAndGrants "34053"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Malaysia/1991> adb:revenueAndGrants "34053"^^xsd:float
   ; adb:electricityProduction "28335"^^xsd:float
   ; adb:employedTotal "6891"^^xsd:float
   ; adb:unemployedTotal "313"^^xsd:float
@@ -155,7 +154,7 @@
   ; dbpprop:populationCensusYear "1991"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Malaysia/1992> adb:revenueAndGrants "39250"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Malaysia/1992> adb:revenueAndGrants "39250"^^xsd:float
   ; adb:electricityProduction "31887"^^xsd:float
   ; adb:employedTotal "7096"^^xsd:float
   ; adb:unemployedTotal "274"^^xsd:float
@@ -166,7 +165,7 @@
   ; dbpprop:populationCensusYear "1992"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Malaysia/1993> adb:revenueAndGrants "41691"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Malaysia/1993> adb:revenueAndGrants "41691"^^xsd:float
   ; adb:electricityProduction "35579"^^xsd:float
   ; adb:employedTotal "7396"^^xsd:float
   ; adb:unemployedTotal "231"^^xsd:float
@@ -177,7 +176,7 @@
   ; dbpprop:populationCensusYear "1993"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Malaysia/1994> adb:revenueAndGrants "49446"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Malaysia/1994> adb:revenueAndGrants "49446"^^xsd:float
   ; adb:electricityProduction "40058"^^xsd:float
   ; adb:employedTotal "7603"^^xsd:float
   ; adb:unemployedTotal "231"^^xsd:float
@@ -188,7 +187,7 @@
   ; dbpprop:populationCensusYear "1994"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Malaysia/1995> adb:revenueAndGrants "50954"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Malaysia/1995> adb:revenueAndGrants "50954"^^xsd:float
   ; adb:electricityProduction "46632"^^xsd:float
   ; adb:employedTotal "7645"^^xsd:float
   ; adb:unemployedTotal "248"^^xsd:float
@@ -199,7 +198,7 @@
   ; dbpprop:populationCensusYear "1995"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Malaysia/1996> adb:revenueAndGrants "58280"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Malaysia/1996> adb:revenueAndGrants "58280"^^xsd:float
   ; adb:electricityProduction "52819"^^xsd:float
   ; adb:employedTotal "8399"^^xsd:float
   ; adb:unemployedTotal "217"^^xsd:float
@@ -210,7 +209,7 @@
   ; dbpprop:populationCensusYear "1996"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Malaysia/1997> adb:revenueAndGrants "65736"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Malaysia/1997> adb:revenueAndGrants "65736"^^xsd:float
   ; adb:electricityProduction "58674.4"^^xsd:float
   ; adb:employedTotal "8569"^^xsd:float
   ; adb:unemployedTotal "215"^^xsd:float
@@ -221,7 +220,7 @@
   ; dbpprop:populationCensusYear "1997"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Malaysia/1998> adb:revenueAndGrants "56710"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Malaysia/1998> adb:revenueAndGrants "56710"^^xsd:float
   ; adb:electricityProduction "60471"^^xsd:float
   ; adb:employedTotal "8600"^^xsd:float
   ; adb:unemployedTotal "284"^^xsd:float
@@ -232,7 +231,7 @@
   ; dbpprop:populationCensusYear "1998"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Malaysia/1999> adb:revenueAndGrants "58675"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Malaysia/1999> adb:revenueAndGrants "58675"^^xsd:float
   ; adb:electricityProduction "62553"^^xsd:float
   ; adb:employedTotal "8838"^^xsd:float
   ; adb:unemployedTotal "314"^^xsd:float
@@ -243,7 +242,7 @@
   ; dbpprop:populationCensusYear "1999"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Malaysia/2000> adb:revenueAndGrants "61864"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Malaysia/2000> adb:revenueAndGrants "61864"^^xsd:float
   ; adb:electricityProduction "66686"^^xsd:float
   ; adb:employedTotal "9269"^^xsd:float
   ; adb:unemployedTotal "287"^^xsd:float
@@ -254,7 +253,7 @@
   ; dbpprop:populationCensusYear "2000"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Malaysia/2001> adb:revenueAndGrants "79567"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Malaysia/2001> adb:revenueAndGrants "79567"^^xsd:float
   ; adb:electricityProduction "72280.3"^^xsd:float
   ; adb:employedTotal "9357"^^xsd:float
   ; adb:unemployedTotal "342"^^xsd:float
@@ -265,7 +264,7 @@
   ; dbpprop:populationCensusYear "2001"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Malaysia/2002> adb:revenueAndGrants "83515"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Malaysia/2002> adb:revenueAndGrants "83515"^^xsd:float
   ; adb:electricityProduction "75327.7"^^xsd:float
   ; adb:employedTotal "9543"^^xsd:float
   ; adb:unemployedTotal "344"^^xsd:float
@@ -276,7 +275,7 @@
   ; dbpprop:populationCensusYear "2002"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Malaysia/2003> adb:revenueAndGrants "92608"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Malaysia/2003> adb:revenueAndGrants "92608"^^xsd:float
   ; adb:electricityProduction "84021.7"^^xsd:float
   ; adb:employedTotal "9870"^^xsd:float
   ; adb:unemployedTotal "370"^^xsd:float
@@ -287,7 +286,7 @@
   ; dbpprop:populationCensusYear "2003"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Malaysia/2004> adb:revenueAndGrants "99397"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Malaysia/2004> adb:revenueAndGrants "99397"^^xsd:float
   ; adb:electricityProduction "90661"^^xsd:float
   ; adb:employedTotal "9979.5"^^xsd:float
   ; adb:unemployedTotal "366.6"^^xsd:float
@@ -298,7 +297,7 @@
   ; dbpprop:populationCensusYear "2004"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Malaysia/2005> adb:revenueAndGrants "106304"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Malaysia/2005> adb:revenueAndGrants "106304"^^xsd:float
   ; adb:electricityProduction "96214"^^xsd:float
   ; adb:employedTotal "10045.4"^^xsd:float
   ; adb:unemployedTotal "368.1"^^xsd:float
@@ -309,7 +308,7 @@
   ; dbpprop:populationCensusYear "2005"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Malaysia/2006> adb:revenueAndGrants "123546"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Malaysia/2006> adb:revenueAndGrants "123546"^^xsd:float
   ; adb:electricityProduction "100840.6"^^xsd:float
   ; adb:employedTotal "10275.4"^^xsd:float
   ; adb:unemployedTotal "353.6"^^xsd:float
@@ -320,7 +319,7 @@
   ; dbpprop:populationCensusYear "2006"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Malaysia/2007> adb:revenueAndGrants "139885"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Malaysia/2007> adb:revenueAndGrants "139885"^^xsd:float
   ; adb:electricityProduction "104950"^^xsd:float
   ; adb:employedTotal "10538.1"^^xsd:float
   ; adb:unemployedTotal "351.4"^^xsd:float
@@ -331,7 +330,7 @@
   ; dbpprop:populationCensusYear "2007"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Malaysia/2008> adb:revenueAndGrants "159793"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Malaysia/2008> adb:revenueAndGrants "159793"^^xsd:float
   ; adb:electricityProduction "106927"^^xsd:float
   ; adb:employedTotal "10659.6"^^xsd:float
   ; adb:unemployedTotal "368.5"^^xsd:float
@@ -342,7 +341,7 @@
   ; dbpprop:populationCensusYear "2008"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Malaysia/2009> adb:revenueAndGrants "158639"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Malaysia/2009> adb:revenueAndGrants "158639"^^xsd:float
   ; adb:electricityProduction "107115.79699"^^xsd:float
   ; adb:employedTotal "10897.3"^^xsd:float
   ; adb:unemployedTotal "418"^^xsd:float
@@ -353,7 +352,7 @@
   ; dbpprop:populationCensusYear "2009"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Malaysia/2010> adb:revenueAndGrants "159653"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Malaysia/2010> adb:revenueAndGrants "159653"^^xsd:float
   ; adb:electricityProduction "116807.69983"^^xsd:float
   ; adb:employedTotal "11899.5"^^xsd:float
   ; adb:unemployedTotal "404.4"^^xsd:float
@@ -364,7 +363,7 @@
   ; dbpprop:populationCensusYear "2010"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Malaysia/2011> adb:revenueAndGrants "185419"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Malaysia/2011> adb:revenueAndGrants "185419"^^xsd:float
   ; adb:electricityProduction "119112.54649"^^xsd:float
   ; adb:employedTotal "12284.4"^^xsd:float
   ; adb:unemployedTotal "391.4"^^xsd:float
@@ -375,7 +374,7 @@
   ; dbpprop:populationCensusYear "2011"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Malaysia/2012> adb:revenueAndGrants "207913"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Malaysia/2012> adb:revenueAndGrants "207913"^^xsd:float
   ; adb:electricityProduction "124918.3013"^^xsd:float
   ; adb:employedTotal "12723.2"^^xsd:float
   ; adb:unemployedTotal "396.3"^^xsd:float
@@ -386,7 +385,7 @@
   ; dbpprop:populationCensusYear "2012"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Malaysia/2013> adb:revenueAndGrants "213370"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Malaysia/2013> adb:revenueAndGrants "213370"^^xsd:float
   ; adb:electricityProduction "131643.76588"^^xsd:float
   ; adb:employedTotal "13212.2"^^xsd:float
   ; adb:unemployedTotal "424.1"^^xsd:float

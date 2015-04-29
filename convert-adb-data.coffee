@@ -9,7 +9,7 @@ if (process.env.COUNTRY is undefined)
 
 console.log 'country >>', process.env.COUNTRY
 
-baseUrl = 'http://ryac.ca/ns/adb/'
+baseUrl = 'http://demos.pebbleroad.com/adb/'
 obj = {}
 
 labels = [
@@ -26,7 +26,7 @@ labels = [
 file  = '@prefix owl: <http://www.w3.org/2002/07/owl#> .\n'
 file += '@prefix dbpedia: <http://dbpedia.org/resource/> .\n'
 file += '@prefix dbpprop: <http://dbpedia.org/property/> .\n'
-file += '@prefix adb: <http://ryac.ca/ns/adb/> .\n'
+file += '@prefix adb: <' + baseUrl + '> .\n'
 file += '@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n'
 
 parser = csv.parse (err, data) ->
@@ -39,7 +39,7 @@ parser = csv.parse (err, data) ->
 		y = yearStart + index
 		output += createTurtle item, y
 	# console.log output
-	file += '<http://ryac.ca/ns/adb/country/' + process.env.COUNTRY + '> owl:sameAs dbpedia:' + process.env.COUNTRY + '\n'
+	file += '<' + baseUrl + 'Country/' + process.env.COUNTRY + '> owl:sameAs dbpedia:' + process.env.COUNTRY + '\n'
 	_.each obj, (item, idx) ->
 		# console.log 'idx:', idx
 		file += ' ; adb:' + idx + '\n'
@@ -47,7 +47,7 @@ parser = csv.parse (err, data) ->
 		addComma = '     '
 		_.each arr, (el, index) ->
 			# console.log el
-			file += addComma + buildLink(baseUrl, 'country/' + process.env.COUNTRY + '/' + el) + '\n'
+			file += addComma + buildLink(baseUrl, 'Country/' + process.env.COUNTRY + '/' + el) + '\n'
 			addComma = '   , '
 		# console.log '----'
 	file += '. \n\n'
@@ -93,7 +93,7 @@ createTurtle = (data, year) ->
 	addSemi = ''
 	nl = ''
 	hasData = false
-	output =  buildLink baseUrl, 'country/' + process.env.COUNTRY + '/' + year
+	output =  buildLink baseUrl, 'Country/' + process.env.COUNTRY + '/' + year
 	data.forEach (el, index) ->
 		if (el isnt '...')
 			hasData = true

@@ -1,152 +1,151 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix dbpedia: <http://dbpedia.org/resource/> .
-@prefix dbpedia: <http://dbpedia.org/resource/> .
 @prefix dbpprop: <http://dbpedia.org/property/> .
-@prefix adb: <http://ryac.ca/ns/adb/> .
+@prefix adb: <http://demos.pebbleroad.com/adb/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://ryac.ca/ns/adb/country/Cambodia> owl:sameAs dbpedia:Cambodia
+<http://demos.pebbleroad.com/adb/Country/Cambodia> owl:sameAs dbpedia:Cambodia
  ; adb:PopulationFor
-     <http://ryac.ca/ns/adb/country/Cambodia/1988> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/1989> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/1990> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/1991> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/1992> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/1993> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/1994> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/1995> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/1996> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/1997> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/1998> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/1999> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2000> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2001> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2002> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2003> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2004> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2005> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2006> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2007> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2008> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2009> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2010> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2011> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2012> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2013> 
+     <http://demos.pebbleroad.com/adb/Country/Cambodia/1988> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/1989> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/1990> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/1991> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/1992> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/1993> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/1994> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/1995> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/1996> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/1997> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/1998> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/1999> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2000> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2001> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2002> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2003> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2004> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2005> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2006> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2007> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2008> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2009> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2010> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2011> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2012> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2013> 
  ; adb:GovernmentFinanceFor
-     <http://ryac.ca/ns/adb/country/Cambodia/1991> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/1992> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/1993> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/1994> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/1995> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/1996> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/1997> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/1998> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/1999> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2000> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2001> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2002> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2003> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2004> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2005> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2006> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2007> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2008> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2009> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2010> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2011> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2012> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2013> 
+     <http://demos.pebbleroad.com/adb/Country/Cambodia/1991> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/1992> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/1993> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/1994> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/1995> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/1996> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/1997> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/1998> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/1999> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2000> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2001> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2002> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2003> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2004> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2005> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2006> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2007> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2008> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2009> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2010> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2011> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2012> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2013> 
  ; adb:LaborForceFor
-     <http://ryac.ca/ns/adb/country/Cambodia/1993> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/1994> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/1995> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/1996> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/1997> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/1998> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/1999> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2000> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2001> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2002> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2003> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2004> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2005> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2006> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2007> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2008> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2009> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2010> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2011> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2012> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2013> 
+     <http://demos.pebbleroad.com/adb/Country/Cambodia/1993> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/1994> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/1995> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/1996> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/1997> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/1998> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/1999> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2000> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2001> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2002> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2003> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2004> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2005> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2006> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2007> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2008> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2009> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2010> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2011> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2012> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2013> 
  ; adb:EnergyFor
-     <http://ryac.ca/ns/adb/country/Cambodia/1996> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/1997> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/1998> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/1999> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2000> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2001> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2002> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2003> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2004> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2005> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2006> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2007> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2008> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2009> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2010> 
-   , <http://ryac.ca/ns/adb/country/Cambodia/2011> 
+     <http://demos.pebbleroad.com/adb/Country/Cambodia/1996> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/1997> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/1998> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/1999> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2000> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2001> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2002> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2003> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2004> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2005> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2006> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2007> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2008> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2009> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2010> 
+   , <http://demos.pebbleroad.com/adb/Country/Cambodia/2011> 
 . 
 
-<http://ryac.ca/ns/adb/country/Cambodia/1988> adb:populationDensity "44.74"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Cambodia/1988> adb:populationDensity "44.74"^^xsd:float
   ; adb:populationPercentChange "2.53"^^xsd:float
   ; dbpprop:populationCensusYear "1988"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Cambodia/1989> adb:populationDensity "45.85"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Cambodia/1989> adb:populationDensity "45.85"^^xsd:float
   ; adb:populationPercentChange "2.47"^^xsd:float
   ; dbpprop:populationCensusYear "1989"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Cambodia/1990> adb:populationDensity "47.50331"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Cambodia/1990> adb:populationDensity "47.50331"^^xsd:float
   ; adb:populationPercentChange "3.61"^^xsd:float
   ; dbpprop:populationCensusYear "1990"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Cambodia/1991> adb:revenueAndGrants "58.7"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Cambodia/1991> adb:revenueAndGrants "58.7"^^xsd:float
   ; adb:populationDensity "48.60804"^^xsd:float
   ; adb:populationPercentChange "2.33"^^xsd:float
   ; dbpprop:populationCensusYear "1991"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Cambodia/1992> adb:revenueAndGrants "156.1"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Cambodia/1992> adb:revenueAndGrants "156.1"^^xsd:float
   ; adb:populationDensity "49.71277"^^xsd:float
   ; adb:populationPercentChange "2.27"^^xsd:float
   ; dbpprop:populationCensusYear "1992"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Cambodia/1993> adb:revenueAndGrants "290.7"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Cambodia/1993> adb:revenueAndGrants "290.7"^^xsd:float
   ; adb:employedTotal "3941.184"^^xsd:float
   ; adb:populationDensity "52.33098"^^xsd:float
   ; adb:populationPercentChange "5.27"^^xsd:float
   ; dbpprop:populationCensusYear "1993"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Cambodia/1994> adb:revenueAndGrants "590.4"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Cambodia/1994> adb:revenueAndGrants "590.4"^^xsd:float
   ; adb:employedTotal "3943.787"^^xsd:float
   ; adb:populationDensity "54.98232"^^xsd:float
   ; adb:populationPercentChange "5.07"^^xsd:float
   ; dbpprop:populationCensusYear "1994"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Cambodia/1995> adb:revenueAndGrants "642.98"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Cambodia/1995> adb:revenueAndGrants "642.98"^^xsd:float
   ; adb:employedTotal "4931.812"^^xsd:float
   ; adb:populationDensity "57.83252"^^xsd:float
   ; adb:populationPercentChange "5.18"^^xsd:float
   ; dbpprop:populationCensusYear "1995"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Cambodia/1996> adb:revenueAndGrants "749.07"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Cambodia/1996> adb:revenueAndGrants "749.07"^^xsd:float
   ; adb:electricityProduction "223"^^xsd:float
   ; adb:employedTotal "4456.168"^^xsd:float
   ; adb:populationDensity "60.94786"^^xsd:float
@@ -154,7 +153,7 @@
   ; dbpprop:populationCensusYear "1996"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Cambodia/1997> adb:revenueAndGrants "1171.81"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Cambodia/1997> adb:revenueAndGrants "1171.81"^^xsd:float
   ; adb:electricityProduction "168"^^xsd:float
   ; adb:employedTotal "4429.686"^^xsd:float
   ; adb:populationDensity "64.29518"^^xsd:float
@@ -162,7 +161,7 @@
   ; dbpprop:populationCensusYear "1997"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Cambodia/1998> adb:revenueAndGrants "1284.95"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Cambodia/1998> adb:revenueAndGrants "1284.95"^^xsd:float
   ; adb:electricityProduction "336"^^xsd:float
   ; adb:employedTotal "4909.218"^^xsd:float
   ; adb:populationDensity "67.01834"^^xsd:float
@@ -171,7 +170,7 @@
   ; dbpprop:populationCensusYear "1998"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Cambodia/1999> adb:revenueAndGrants "1658.8"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Cambodia/1999> adb:revenueAndGrants "1658.8"^^xsd:float
   ; adb:electricityProduction "350"^^xsd:float
   ; adb:employedTotal "5519.016"^^xsd:float
   ; adb:populationDensity "68.03586"^^xsd:float
@@ -179,7 +178,7 @@
   ; dbpprop:populationCensusYear "1999"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Cambodia/2000> adb:revenueAndGrants "1791.8"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Cambodia/2000> adb:revenueAndGrants "1791.8"^^xsd:float
   ; adb:electricityProduction "380"^^xsd:float
   ; adb:employedTotal "5275.177"^^xsd:float
   ; adb:unemployedTotal "133.574"^^xsd:float
@@ -188,7 +187,7 @@
   ; dbpprop:populationCensusYear "2000"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Cambodia/2001> adb:revenueAndGrants "2028.8"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Cambodia/2001> adb:revenueAndGrants "2028.8"^^xsd:float
   ; adb:electricityProduction "433"^^xsd:float
   ; adb:employedTotal "6243.329"^^xsd:float
   ; adb:unemployedTotal "115.8"^^xsd:float
@@ -199,7 +198,7 @@
   ; dbpprop:populationCensusYear "2001"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Cambodia/2002> adb:revenueAndGrants "2426.494"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Cambodia/2002> adb:revenueAndGrants "2426.494"^^xsd:float
   ; adb:electricityProduction "540"^^xsd:float
   ; adb:employedTotal "6399.676"^^xsd:float
   ; adb:populationDensity "71.18204"^^xsd:float
@@ -207,7 +206,7 @@
   ; dbpprop:populationCensusYear "2002"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Cambodia/2003> adb:revenueAndGrants "2320.42"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Cambodia/2003> adb:revenueAndGrants "2320.42"^^xsd:float
   ; adb:electricityProduction "540"^^xsd:float
   ; adb:employedTotal "6947.635"^^xsd:float
   ; adb:populationDensity "72.26278"^^xsd:float
@@ -216,7 +215,7 @@
   ; dbpprop:populationCensusYear "2003"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Cambodia/2004> adb:revenueAndGrants "2622.974"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Cambodia/2004> adb:revenueAndGrants "2622.974"^^xsd:float
   ; adb:electricityProduction "761.1"^^xsd:float
   ; adb:employedTotal "7495.595"^^xsd:float
   ; adb:populationDensity "73.35992"^^xsd:float
@@ -225,7 +224,7 @@
   ; dbpprop:populationCensusYear "2004"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Cambodia/2005> adb:revenueAndGrants "3207.564"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Cambodia/2005> adb:revenueAndGrants "3207.564"^^xsd:float
   ; adb:electricityProduction "905.9"^^xsd:float
   ; adb:employedTotal "7649.44187"^^xsd:float
   ; adb:populationDensity "74.33315"^^xsd:float
@@ -234,7 +233,7 @@
   ; dbpprop:populationCensusYear "2005"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Cambodia/2006> adb:revenueAndGrants "4155.557"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Cambodia/2006> adb:revenueAndGrants "4155.557"^^xsd:float
   ; adb:electricityProduction "1106.5"^^xsd:float
   ; adb:employedTotal "6758.38876"^^xsd:float
   ; adb:populationDensity "75.31928"^^xsd:float
@@ -243,7 +242,7 @@
   ; dbpprop:populationCensusYear "2006"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Cambodia/2007> adb:revenueAndGrants "4976.4445"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Cambodia/2007> adb:revenueAndGrants "4976.4445"^^xsd:float
   ; adb:electricityProduction "1378.12"^^xsd:float
   ; adb:employedTotal "6816.67308"^^xsd:float
   ; adb:populationDensity "76.3185"^^xsd:float
@@ -252,7 +251,7 @@
   ; dbpprop:populationCensusYear "2007"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Cambodia/2008> adb:revenueAndGrants "6651.09439"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Cambodia/2008> adb:revenueAndGrants "6651.09439"^^xsd:float
   ; adb:electricityProduction "1484.11"^^xsd:float
   ; adb:employedTotal "6934.754"^^xsd:float
   ; adb:unemployedTotal "1"^^xsd:float
@@ -262,7 +261,7 @@
   ; dbpprop:populationCensusYear "2008"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Cambodia/2009> adb:revenueAndGrants "6134.74523"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Cambodia/2009> adb:revenueAndGrants "6134.74523"^^xsd:float
   ; adb:electricityProduction "1234.594"^^xsd:float
   ; adb:employedTotal "7004.10154"^^xsd:float
   ; adb:unemployedTotal "11"^^xsd:float
@@ -273,7 +272,7 @@
   ; dbpprop:populationCensusYear "2009"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Cambodia/2010> adb:revenueAndGrants "8501.56305"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Cambodia/2010> adb:revenueAndGrants "8501.56305"^^xsd:float
   ; adb:electricityProduction "968.364"^^xsd:float
   ; adb:employedTotal "7086.33583"^^xsd:float
   ; adb:unemployedTotal "27"^^xsd:float
@@ -284,7 +283,7 @@
   ; dbpprop:populationCensusYear "2010"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Cambodia/2011> adb:revenueAndGrants "9369.38866"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Cambodia/2011> adb:revenueAndGrants "9369.38866"^^xsd:float
   ; adb:electricityProduction "1018.54"^^xsd:float
   ; adb:employedTotal "7246.51"^^xsd:float
   ; adb:unemployedTotal "16"^^xsd:float
@@ -295,7 +294,7 @@
   ; dbpprop:populationCensusYear "2011"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Cambodia/2012> adb:revenueAndGrants "10208.61"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Cambodia/2012> adb:revenueAndGrants "10208.61"^^xsd:float
   ; adb:employedTotal "7287.36582"^^xsd:float
   ; adb:populationDensity "81.60931"^^xsd:float
   ; adb:populationPercentChange "1.74132"^^xsd:float
@@ -303,7 +302,7 @@
   ; dbpprop:populationCensusYear "2012"^^xsd:int
 . 
 
-<http://ryac.ca/ns/adb/country/Cambodia/2013> adb:revenueAndGrants "11139.521"^^xsd:float
+<http://demos.pebbleroad.com/adb/Country/Cambodia/2013> adb:revenueAndGrants "11139.521"^^xsd:float
   ; adb:employedTotal "8124.7"^^xsd:float
   ; adb:unemployedTotal "193.4"^^xsd:float
   ; adb:populationDensity "83"^^xsd:float
