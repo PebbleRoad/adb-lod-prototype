@@ -1,0 +1,48 @@
+/* line 1, ../scss/views/_home.scss */
+body {
+  background: #FFF;
+}
+
+/* line 5, ../scss/views/_home.scss */
+.country-list, .country-data {
+  display: none;
+}
+
+/* line 10, ../scss/views/_home.scss */
+.country-list select {
+  margin-bottom: 0;
+}
+
+/* line 13, ../scss/views/_home.scss */
+.country-capital {
+  font-size: 12px;
+  color: #999;
+}
+
+/* line 22, ../scss/views/_home.scss */
+.dbpedia-data .country-name {
+  float: left;
+  margin-left: 10px;
+}
+/* line 26, ../scss/views/_home.scss */
+.dbpedia-data .flagUrl {
+  height: 42px;
+  float: left;
+  margin-top: 10px;
+}
+
+/* line 33, ../scss/views/_home.scss */
+.people-birthplace {
+  -webkit-columns: 2 200px;
+  -moz-columns: 2 200px;
+  columns: 2 200px;
+  -webkit-column-gap: 20px;
+  /* Chrome, Safari, Opera */
+  -moz-column-gap: 20px;
+  /* Firefox */
+  column-gap: 20px;
+}
+/* line 41, ../scss/views/_home.scss */
+.people-birthplace span {
+  color: #999;
+}

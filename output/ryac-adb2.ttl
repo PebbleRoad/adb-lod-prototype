@@ -1,0 +1,600 @@
+@base <http://dydra.com/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix cert: <http://www.w3.org/ns/auth/cert#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix dc11: <http://purl.org/dc/elements/1.1/> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix exif: <http://www.w3.org/2003/12/exif/ns#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geonames: <http://www.geonames.org/ontology#> .
+@prefix gr: <http://purl.org/goodrelations/v1#> .
+@prefix http: <http://www.w3.org/2006/http#> .
+@prefix log: <http://www.w3.org/2000/10/swap/log#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rei: <http://www.w3.org/2004/06/rei#> .
+@prefix rsa: <http://www.w3.org/ns/auth/rsa#> .
+@prefix rss: <http://purl.org/rss/1.0/> .
+@prefix sfn: <http://www.w3.org/ns/sparql#> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix swrc: <http://swrc.ontoware.org/ontology#> .
+@prefix types: <http://rdfs.org/sioc/types#> .
+@prefix wot: <http://xmlns.com/wot/0.1/> .
+@prefix xhtml: <http://www.w3.org/1999/xhtml#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://demos.pebbleroad.com/adb/Country/Cambodia>
+    <http://demos.pebbleroad.com/adb/EnergyFor> <http://demos.pebbleroad.com/adb/Country/Cambodia/1996>, <http://demos.pebbleroad.com/adb/Country/Cambodia/1997>, <http://demos.pebbleroad.com/adb/Country/Cambodia/1998>, <http://demos.pebbleroad.com/adb/Country/Cambodia/1999>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2000>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2001>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2002>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2003>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2004>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2005>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2006>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2007>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2008>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2009>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2010>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2011> ;
+    <http://demos.pebbleroad.com/adb/GovernmentFinanceFor> <http://demos.pebbleroad.com/adb/Country/Cambodia/1991>, <http://demos.pebbleroad.com/adb/Country/Cambodia/1992>, <http://demos.pebbleroad.com/adb/Country/Cambodia/1993>, <http://demos.pebbleroad.com/adb/Country/Cambodia/1994>, <http://demos.pebbleroad.com/adb/Country/Cambodia/1995>, <http://demos.pebbleroad.com/adb/Country/Cambodia/1996>, <http://demos.pebbleroad.com/adb/Country/Cambodia/1997>, <http://demos.pebbleroad.com/adb/Country/Cambodia/1998>, <http://demos.pebbleroad.com/adb/Country/Cambodia/1999>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2000>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2001>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2002>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2003>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2004>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2005>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2006>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2007>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2008>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2009>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2010>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2011>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2012>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2013> ;
+    <http://demos.pebbleroad.com/adb/LaborForceFor> <http://demos.pebbleroad.com/adb/Country/Cambodia/1993>, <http://demos.pebbleroad.com/adb/Country/Cambodia/1994>, <http://demos.pebbleroad.com/adb/Country/Cambodia/1995>, <http://demos.pebbleroad.com/adb/Country/Cambodia/1996>, <http://demos.pebbleroad.com/adb/Country/Cambodia/1997>, <http://demos.pebbleroad.com/adb/Country/Cambodia/1998>, <http://demos.pebbleroad.com/adb/Country/Cambodia/1999>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2000>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2001>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2002>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2003>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2004>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2005>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2006>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2007>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2008>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2009>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2010>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2011>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2012>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2013> ;
+    <http://demos.pebbleroad.com/adb/PopulationFor> <http://demos.pebbleroad.com/adb/Country/Cambodia/1988>, <http://demos.pebbleroad.com/adb/Country/Cambodia/1989>, <http://demos.pebbleroad.com/adb/Country/Cambodia/1990>, <http://demos.pebbleroad.com/adb/Country/Cambodia/1991>, <http://demos.pebbleroad.com/adb/Country/Cambodia/1992>, <http://demos.pebbleroad.com/adb/Country/Cambodia/1993>, <http://demos.pebbleroad.com/adb/Country/Cambodia/1994>, <http://demos.pebbleroad.com/adb/Country/Cambodia/1995>, <http://demos.pebbleroad.com/adb/Country/Cambodia/1996>, <http://demos.pebbleroad.com/adb/Country/Cambodia/1997>, <http://demos.pebbleroad.com/adb/Country/Cambodia/1998>, <http://demos.pebbleroad.com/adb/Country/Cambodia/1999>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2000>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2001>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2002>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2003>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2004>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2005>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2006>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2007>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2008>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2009>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2010>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2011>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2012>, <http://demos.pebbleroad.com/adb/Country/Cambodia/2013> ;
+    owl:sameAs <http://dbpedia.org/resource/Cambodia> .
+
+<http://demos.pebbleroad.com/adb/Country/Cambodia/1988>
+    dbp:populationCensusYear "1988"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "4.474E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "2.53E0"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Cambodia/1989>
+    dbp:populationCensusYear "1989"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "4.585E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "2.47E0"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Cambodia/1990>
+    dbp:populationCensusYear "1990"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "4.750331E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "3.61E0"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Cambodia/1991>
+    dbp:populationCensusYear "1991"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "4.860804E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "2.33E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "5.87E1"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Cambodia/1992>
+    dbp:populationCensusYear "1992"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "4.971277E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "2.27E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "1.561E2"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Cambodia/1993>
+    dbp:populationCensusYear "1993"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/employedTotal> "3.941184E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "5.233098E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "5.27E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "2.907E2"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Cambodia/1994>
+    dbp:populationCensusYear "1994"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/employedTotal> "3.943787E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "5.498232E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "5.07E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "5.904E2"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Cambodia/1995>
+    dbp:populationCensusYear "1995"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/employedTotal> "4.931812E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "5.783252E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "5.18E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "6.4298E2"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Cambodia/1996>
+    dbp:populationCensusYear "1996"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/electricityProduction> "2.23E2"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/employedTotal> "4.456168E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "6.094786E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "5.39E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "7.4907E2"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Cambodia/1997>
+    dbp:populationCensusYear "1997"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/electricityProduction> "1.68E2"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/employedTotal> "4.429686E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "6.429518E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "5.49E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "1.17181E3"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Cambodia/1998>
+    dbp:populationCensusYear "1998"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/electricityProduction> "3.36E2"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/employedTotal> "4.909218E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "6.701834E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "4.24E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationUrban> "1.48E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "1.28495E3"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Cambodia/1999>
+    dbp:populationCensusYear "1999"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/electricityProduction> "3.5E2"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/employedTotal> "5.519016E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "6.803586E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "1.34569E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "1.6588E3"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Cambodia/2000>
+    dbp:populationCensusYear "2000"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/electricityProduction> "3.8E2"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/employedTotal> "5.275177E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "6.906882E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "1.34569E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "1.7918E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/unemployedTotal> "1.33574E2"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Cambodia/2001>
+    dbp:populationCensusYear "2001"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/electricityProduction> "4.33E2"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/employedTotal> "6.243329E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/laborforcePercentChange> "1.76E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "7.011747E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "1.34569E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationUrban> "1.6E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "2.0288E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/unemployedTotal> "1.158E2"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Cambodia/2002>
+    dbp:populationCensusYear "2002"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/electricityProduction> "5.4E2"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/employedTotal> "6.399676E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "7.118204E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "1.34569E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "2.426494E3"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Cambodia/2003>
+    dbp:populationCensusYear "2003"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/electricityProduction> "5.4E2"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/employedTotal> "6.947635E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "7.226278E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "1.34569E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationUrban> "1.6E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "2.32042E3"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Cambodia/2004>
+    dbp:populationCensusYear "2004"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/electricityProduction> "7.611E2"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/employedTotal> "7.495595E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "7.335992E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "1.34569E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationUrban> "1.6E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "2.622974E3"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Cambodia/2005>
+    dbp:populationCensusYear "2005"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/electricityProduction> "9.059E2"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/employedTotal> "7.649442E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "7.433315E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "1.34569E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationUrban> "1.77E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "3.207564E3"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Cambodia/2006>
+    dbp:populationCensusYear "2006"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/electricityProduction> "1.1065E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/employedTotal> "6.758389E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "7.531928E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "1.34569E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationUrban> "1.78E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "4.155557E3"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Cambodia/2007>
+    dbp:populationCensusYear "2007"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/electricityProduction> "1.37812E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/employedTotal> "6.816673E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "7.63185E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "1.34569E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationUrban> "1.78E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "4.976444E3"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Cambodia/2008>
+    dbp:populationCensusYear "2008"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/electricityProduction> "1.48411E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/employedTotal> "6.934754E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "7.733098E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "1.34569E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationUrban> "1.95E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "6.651094E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/unemployedTotal> "1.0E0"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Cambodia/2009>
+    dbp:populationCensusYear "2009"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/electricityProduction> "1.234594E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/employedTotal> "7.004102E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/laborforcePercentChange> "8.4E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "7.849094E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "1.56543E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationUrban> "1.95E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "6.134745E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/unemployedTotal> "1.1E1"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Cambodia/2010>
+    dbp:populationCensusYear "2010"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/electricityProduction> "9.68364E2"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/employedTotal> "7.086336E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/laborforcePercentChange> "2.9E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "7.970272E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "1.54384E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationUrban> "1.95E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "8.501563E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/unemployedTotal> "2.7E1"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Cambodia/2011>
+    dbp:populationCensusYear "2011"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/electricityProduction> "1.01854E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/employedTotal> "7.24651E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/laborforcePercentChange> "2.6E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "8.021253E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "1.52764E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationUrban> "2.1E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "9.369389E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/unemployedTotal> "1.6E1"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Cambodia/2012>
+    dbp:populationCensusYear "2012"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/employedTotal> "7.287366E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "8.160931E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "1.74132E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationUrban> "2.2E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "1.020861E4"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Cambodia/2013>
+    dbp:populationCensusYear "2013"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/employedTotal> "8.1247E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "8.3E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "1.46E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationUrban> "2.14E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "1.113952E4"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/unemployedTotal> "1.934E2"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Malaysia>
+    <http://demos.pebbleroad.com/adb/EnergyFor> <http://demos.pebbleroad.com/adb/Country/Malaysia/1988>, <http://demos.pebbleroad.com/adb/Country/Malaysia/1989>, <http://demos.pebbleroad.com/adb/Country/Malaysia/1990>, <http://demos.pebbleroad.com/adb/Country/Malaysia/1991>, <http://demos.pebbleroad.com/adb/Country/Malaysia/1992>, <http://demos.pebbleroad.com/adb/Country/Malaysia/1993>, <http://demos.pebbleroad.com/adb/Country/Malaysia/1994>, <http://demos.pebbleroad.com/adb/Country/Malaysia/1995>, <http://demos.pebbleroad.com/adb/Country/Malaysia/1996>, <http://demos.pebbleroad.com/adb/Country/Malaysia/1997>, <http://demos.pebbleroad.com/adb/Country/Malaysia/1998>, <http://demos.pebbleroad.com/adb/Country/Malaysia/1999>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2000>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2001>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2002>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2003>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2004>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2005>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2006>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2007>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2008>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2009>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2010>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2011>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2012>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2013> ;
+    <http://demos.pebbleroad.com/adb/GovernmentFinanceFor> <http://demos.pebbleroad.com/adb/Country/Malaysia/1989>, <http://demos.pebbleroad.com/adb/Country/Malaysia/1990>, <http://demos.pebbleroad.com/adb/Country/Malaysia/1991>, <http://demos.pebbleroad.com/adb/Country/Malaysia/1992>, <http://demos.pebbleroad.com/adb/Country/Malaysia/1993>, <http://demos.pebbleroad.com/adb/Country/Malaysia/1994>, <http://demos.pebbleroad.com/adb/Country/Malaysia/1995>, <http://demos.pebbleroad.com/adb/Country/Malaysia/1996>, <http://demos.pebbleroad.com/adb/Country/Malaysia/1997>, <http://demos.pebbleroad.com/adb/Country/Malaysia/1998>, <http://demos.pebbleroad.com/adb/Country/Malaysia/1999>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2000>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2001>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2002>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2003>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2004>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2005>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2006>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2007>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2008>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2009>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2010>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2011>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2012>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2013> ;
+    <http://demos.pebbleroad.com/adb/LaborForceFor> <http://demos.pebbleroad.com/adb/Country/Malaysia/1988>, <http://demos.pebbleroad.com/adb/Country/Malaysia/1989>, <http://demos.pebbleroad.com/adb/Country/Malaysia/1990>, <http://demos.pebbleroad.com/adb/Country/Malaysia/1991>, <http://demos.pebbleroad.com/adb/Country/Malaysia/1992>, <http://demos.pebbleroad.com/adb/Country/Malaysia/1993>, <http://demos.pebbleroad.com/adb/Country/Malaysia/1994>, <http://demos.pebbleroad.com/adb/Country/Malaysia/1995>, <http://demos.pebbleroad.com/adb/Country/Malaysia/1996>, <http://demos.pebbleroad.com/adb/Country/Malaysia/1997>, <http://demos.pebbleroad.com/adb/Country/Malaysia/1998>, <http://demos.pebbleroad.com/adb/Country/Malaysia/1999>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2000>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2001>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2002>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2003>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2004>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2005>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2006>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2007>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2008>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2009>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2010>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2011>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2012>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2013> ;
+    <http://demos.pebbleroad.com/adb/PopulationFor> <http://demos.pebbleroad.com/adb/Country/Malaysia/1988>, <http://demos.pebbleroad.com/adb/Country/Malaysia/1989>, <http://demos.pebbleroad.com/adb/Country/Malaysia/1990>, <http://demos.pebbleroad.com/adb/Country/Malaysia/1991>, <http://demos.pebbleroad.com/adb/Country/Malaysia/1992>, <http://demos.pebbleroad.com/adb/Country/Malaysia/1993>, <http://demos.pebbleroad.com/adb/Country/Malaysia/1994>, <http://demos.pebbleroad.com/adb/Country/Malaysia/1995>, <http://demos.pebbleroad.com/adb/Country/Malaysia/1996>, <http://demos.pebbleroad.com/adb/Country/Malaysia/1997>, <http://demos.pebbleroad.com/adb/Country/Malaysia/1998>, <http://demos.pebbleroad.com/adb/Country/Malaysia/1999>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2000>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2001>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2002>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2003>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2004>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2005>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2006>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2007>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2008>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2009>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2010>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2011>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2012>, <http://demos.pebbleroad.com/adb/Country/Malaysia/2013> ;
+    owl:sameAs <http://dbpedia.org/resource/Malaysia> .
+
+<http://demos.pebbleroad.com/adb/Country/Malaysia/1988>
+    dbp:populationCensusYear "1988"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/electricityProduction> "1.9314E4"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/employedTotal> "6.176E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/laborforcePercentChange> "3.1129E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "5.240907E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "2.6E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/unemployedTotal> "4.82E2"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Malaysia/1989>
+    dbp:populationCensusYear "1989"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/electricityProduction> "2.1473E4"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/employedTotal> "6.39E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/laborforcePercentChange> "2.88375E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "5.375742E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "2.5E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "2.5273E4"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/unemployedTotal> "4.6E2"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Malaysia/1990>
+    dbp:populationCensusYear "1990"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/electricityProduction> "2.5263E4"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/employedTotal> "6.686E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/laborforcePercentChange> "2.80292E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "5.509664E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "2.4799E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "2.9521E4"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/unemployedTotal> "3.56E2"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Malaysia/1991>
+    dbp:populationCensusYear "1991"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/electricityProduction> "2.8335E4"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/employedTotal> "6.891E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/laborforcePercentChange> "2.30048E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "5.645168E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "2.48619E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationUrban> "5.11E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "3.4053E4"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/unemployedTotal> "3.13E2"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Malaysia/1992>
+    dbp:populationCensusYear "1992"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/electricityProduction> "3.1887E4"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/employedTotal> "7.096E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/laborforcePercentChange> "2.30428E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "5.796074E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "2.64151E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationUrban> "5.2E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "3.925E4"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/unemployedTotal> "2.74E2"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Malaysia/1993>
+    dbp:populationCensusYear "1993"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/electricityProduction> "3.5579E4"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/employedTotal> "7.396E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/laborforcePercentChange> "3.48711E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "5.9E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "2.73109E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationUrban> "5.29E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "4.1691E4"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/unemployedTotal> "2.31E2"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Malaysia/1994>
+    dbp:populationCensusYear "1994"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/electricityProduction> "4.0058E4"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/employedTotal> "7.603E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/laborforcePercentChange> "2.71404E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "6.121443E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "2.81186E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationUrban> "5.38E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "4.9446E4"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/unemployedTotal> "2.31E2"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Malaysia/1995>
+    dbp:populationCensusYear "1995"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/electricityProduction> "4.6632E4"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/employedTotal> "7.645E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/laborforcePercentChange> "7.5313E-1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "6.297154E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "2.64612E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationUrban> "5.6E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "5.0954E4"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/unemployedTotal> "2.48E2"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Malaysia/1996>
+    dbp:populationCensusYear "1996"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/electricityProduction> "5.2819E4"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/employedTotal> "8.399E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/laborforcePercentChange> "9.16002E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "6.443159E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "2.58127E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationUrban> "5.71E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "5.828E4"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/unemployedTotal> "2.17E2"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Malaysia/1997>
+    dbp:populationCensusYear "1997"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/electricityProduction> "5.86744E4"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/employedTotal> "8.569E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/laborforcePercentChange> "1.94986E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "6.59443E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "2.54317E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationUrban> "5.83E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "6.5736E4"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/unemployedTotal> "2.15E2"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Malaysia/1998>
+    dbp:populationCensusYear "1998"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/electricityProduction> "6.0471E4"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/employedTotal> "8.6E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/laborforcePercentChange> "1.13843E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "6.8E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "2.55888E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationUrban> "5.96E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "5.671E4"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/unemployedTotal> "2.84E2"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Malaysia/1999>
+    dbp:populationCensusYear "1999"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/electricityProduction> "6.2553E4"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/employedTotal> "8.838E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/laborforcePercentChange> "3.01666E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "6.913407E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "2.54615E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationUrban> "6.08E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "5.8675E4"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/unemployedTotal> "3.14E2"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Malaysia/2000>
+    dbp:populationCensusYear "2000"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/electricityProduction> "6.6686E4"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/employedTotal> "9.269E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/laborforcePercentChange> "4.41434E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "7.1E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "2.52334E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationUrban> "6.199723E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "6.1864E4"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/unemployedTotal> "2.87E2"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Malaysia/2001>
+    dbp:populationCensusYear "2001"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/electricityProduction> "7.22803E4"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/employedTotal> "9.357E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/laborforcePercentChange> "1.49644E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "7.27E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "2.40876E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationUrban> "6.291626E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "7.9567E4"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/unemployedTotal> "3.42E2"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Malaysia/2002>
+    dbp:populationCensusYear "2002"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/electricityProduction> "7.53277E4"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/employedTotal> "9.543E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/laborforcePercentChange> "1.93834E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "7.44E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "2.25666E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationUrban> "6.383169E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "8.3515E4"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/unemployedTotal> "3.44E2"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Malaysia/2003>
+    dbp:populationCensusYear "2003"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/electricityProduction> "8.40217E4"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/employedTotal> "9.87E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/laborforcePercentChange> "3.57034E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "7.59E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "2.13962E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationUrban> "6.475019E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "9.2608E4"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/unemployedTotal> "3.7E2"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Malaysia/2004>
+    dbp:populationCensusYear "2004"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/electricityProduction> "9.0661E4"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/employedTotal> "9.9795E3"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/laborforcePercentChange> "1.04492E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "7.7E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "2.09006E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationUrban> "6.563122E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "9.9397E4"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/unemployedTotal> "3.666E2"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Malaysia/2005>
+    dbp:populationCensusYear "2005"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/electricityProduction> "9.6214E4"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/employedTotal> "1.00454E4"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/laborforcePercentChange> "6.3787E-1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "7.92E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "2.07715E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationUrban> "6.652267E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "1.06304E5"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/unemployedTotal> "3.681E2"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Malaysia/2006>
+    dbp:populationCensusYear "2006"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/electricityProduction> "1.008406E5"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/employedTotal> "1.02754E4"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/laborforcePercentChange> "2.08393E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "8.0E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "2.0323E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationUrban> "6.740979E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "1.23546E5"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/unemployedTotal> "3.536E2"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Malaysia/2007>
+    dbp:populationCensusYear "2007"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/electricityProduction> "1.0495E5"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/employedTotal> "1.05381E4"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/laborforcePercentChange> "2.5E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "8.2E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "2.0072E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationUrban> "6.829627E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "1.39885E5"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/unemployedTotal> "3.514E2"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Malaysia/2008>
+    dbp:populationCensusYear "2008"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/electricityProduction> "1.06927E5"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/employedTotal> "1.06596E4"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/laborforcePercentChange> "1.3E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "8.3E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "1.96152E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationUrban> "6.918617E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "1.59793E5"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/unemployedTotal> "3.685E2"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Malaysia/2009>
+    dbp:populationCensusYear "2009"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/electricityProduction> "1.071158E5"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/employedTotal> "1.08973E4"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/laborforcePercentChange> "2.6E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "8.5E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "1.85709E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationUrban> "7.01E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "1.58639E5"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/unemployedTotal> "4.18E2"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Malaysia/2010>
+    dbp:populationCensusYear "2010"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/electricityProduction> "1.168077E5"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/employedTotal> "1.18995E4"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/laborforcePercentChange> "8.7E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "8.7E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "1.80413E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationUrban> "7.1E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "1.59653E5"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/unemployedTotal> "4.044E2"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Malaysia/2011>
+    dbp:populationCensusYear "2011"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/electricityProduction> "1.191125E5"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/employedTotal> "1.22844E4"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/laborforcePercentChange> "3.0E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "8.8E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "1.6559E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationUrban> "7.09E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "1.85419E5"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/unemployedTotal> "3.914E2"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Malaysia/2012>
+    dbp:populationCensusYear "2012"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/electricityProduction> "1.249183E5"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/employedTotal> "1.27232E4"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/laborforcePercentChange> "3.5E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "8.9E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "1.56775E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationUrban> "7.24E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "2.07913E5"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/unemployedTotal> "3.963E2"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/Country/Malaysia/2013>
+    dbp:populationCensusYear "2013"^^xsd:int ;
+    <http://demos.pebbleroad.com/adb/electricityProduction> "1.316438E5"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/employedTotal> "1.32122E4"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/laborforcePercentChange> "3.9E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationDensity> "9.100594E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationPercentChange> "1.45643E0"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/populationUrban> "7.3E1"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/revenueAndGrants> "2.1337E5"^^xsd:float ;
+    <http://demos.pebbleroad.com/adb/unemployedTotal> "4.241E2"^^xsd:float .
+
+<http://demos.pebbleroad.com/adb/EnergyFor>
+    a rdfs:Class, owl:Class ;
+    rdfs:comment "Main topic for energy"@en ;
+    rdfs:label "Energy"@en .
+
+<http://demos.pebbleroad.com/adb/GovernmentFinanceFor>
+    a rdfs:Class, owl:Class ;
+    rdfs:comment "Main topic for government finance"@en ;
+    rdfs:label "Government Finance"@en .
+
+<http://demos.pebbleroad.com/adb/LaborForceFor>
+    a rdfs:Class, owl:Class ;
+    rdfs:comment "Main topic for labor force and employment"@en ;
+    rdfs:label "Labor Force and Employment"@en .
+
+<http://demos.pebbleroad.com/adb/PopulationFor>
+    a rdfs:Class, owl:Class ;
+    rdfs:comment "Population details of a country"@en ;
+    rdfs:label "Population"@en .
+
+<http://demos.pebbleroad.com/adb/electricityProduction>
+    a rdf:Property, owl:ObjectProperty ;
+    rdfs:comment "Mn kilowatt-hour, Ending 1231"@en ;
+    rdfs:label "Electricity Production"@en .
+
+<http://demos.pebbleroad.com/adb/employedTotal>
+    a rdf:Property, owl:ObjectProperty ;
+    rdfs:comment "Th, Ending 1231"@en ;
+    rdfs:label "Employed, total"@en .
+
+<http://demos.pebbleroad.com/adb/laborforcePercentChange>
+    a rdf:Property, owl:ObjectProperty ;
+    rdfs:comment "percent, Ending 1231"@en ;
+    rdfs:label "Labor Force (% change)"@en .
+
+<http://demos.pebbleroad.com/adb/populationDensity>
+    a rdf:Property, owl:ObjectProperty ;
+    rdfs:comment "Persons per square kilometer."@en ;
+    rdfs:label "Population density"@en .
+
+<http://demos.pebbleroad.com/adb/populationPercentChange>
+    a rdf:Property, owl:ObjectProperty ;
+    rdfs:comment "Annual change is in percent."@en ;
+    rdfs:label "Population (% change)"@en .
+
+<http://demos.pebbleroad.com/adb/populationUrban>
+    a rdf:Property, owl:ObjectProperty ;
+    rdfs:comment "Percent of total population."@en ;
+    rdfs:label "Urban population (% of total)"@en .
+
+<http://demos.pebbleroad.com/adb/revenueAndGrants>
+    a rdf:Property, owl:ObjectProperty ;
+    rdfs:comment "Mn Malaysian Ringgit, Ending 1231."@en ;
+    rdfs:label "Central Government - Total revenue and grants"@en .
+
+<http://demos.pebbleroad.com/adb/unemployedTotal>
+    a rdf:Property, owl:ObjectProperty ;
+    rdfs:comment "Th, Ending 1231"@en ;
+    rdfs:label "Unemployed, total"@en .
+

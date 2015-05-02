@@ -1,0 +1,79 @@
+prefix adb: <http://demos.pebbleroad.com/adb/> select distinct ?year ?populationPercentChange ?populationDensity ?populationUrban ?revenueAndGrants ?laborforcePercentChange ?employedTotal ?unemployedTotal ?electricityProduction where { <http://demos.pebbleroad.com/adb/Country/Cambodia> ?p ?o . filter (regex(?p, "pebbleroad", "i")) . ?o dbpprop:populationCensusYear ?year . optional { ?o adb:populationPercentChange ?populationPercentChange } optional { ?o adb:populationUrban ?populationUrban } optional { ?o adb:populationDensity ?populationDensity } optional { ?o adb:revenueAndGrants ?revenueAndGrants } optional { ?o adb:employedTotal ?employedTotal } optional { ?o adb:unemployedTotal ?unemployedTotal } optional { ?o adb:laborforcePercentChange ?laborforcePercentChange } optional { ?o adb:electricityProduction ?electricityProduction } } order by ?year
+
+
+
+prefix adb: <http://demos.pebbleroad.com/adb/> select distinct ?year ?populationPercentChange ?populationDensity ?populationUrban ?revenueAndGrants ?laborforcePercentChange ?employedTotal ?unemployedTotal ?electricityProduction (sample(?p as ?pred)) where { <http://demos.pebbleroad.com/adb/Country/Cambodia> ?p ?o . ?o dbpprop:populationCensusYear ?year . optional { ?o adb:populationPercentChange ?populationPercentChange } . optional { ?o adb:populationUrban ?populationUrban } . optional { ?o adb:populationDensity ?populationDensity } . optional { ?o adb:revenueAndGrants ?revenueAndGrants } . optional { ?o adb:employedTotal ?employedTotal } . optional { ?o adb:unemployedTotal ?unemployedTotal } . optional { ?o adb:laborforcePercentChange ?laborforcePercentChange } . optional { ?o adb:electricityProduction ?electricityProduction } . } order by ?year
+
+
+select ?name ?comment ?linkFlag ?motto ?capital where { <http://dbpedia.org/resource/Cambodia> foaf:name ?name . optional { <http://dbpedia.org/resource/Cambodia> rdfs:comment ?comment . filter langMatches(lang(?comment), "en") . } optional { <http://dbpedia.org/resource/Cambodia> foaf:depiction ?linkFlag . } optional { <http://dbpedia.org/resource/Cambodia> dbpedia-owl:motto ?motto . } optional { <http://dbpedia.org/resource/Cambodia> dbpprop:capital ?_capital . ?_capital foaf:name ?capital . filter langMatches(lang(?capital), "en") . } } limit 1
+
+
+getting topics:::
+
+select *
+where {
+  <http://demos.pebbleroad.com/adb/Country/Cambodia> <http://demos.pebbleroad.com/adb/PopulationFor> ?pop .
+  ?pop dbpprop:populationCensusYear ?year
+}
+
+getting year:::
+
+prefix adb: <http://demos.pebbleroad.com/adb/>
+select *
+where {
+  <http://demos.pebbleroad.com/adb/Country/Cambodia> <http://demos.pebbleroad.com/adb/PopulationFor> ?pop .
+  ?pop dbpprop:populationCensusYear ?year
+}
+
+select *
+where {
+  <http://dbpedia.org/resource/Malaysia> foaf:name ?name .
+  optional { <http://dbpedia.org/resource/Malaysia> dbpedia-owl:abstract ?abstract . filter langMatches(lang(?abstract), "en") . }
+  optional { <http://dbpedia.org/resource/Malaysia> foaf:depiction ?flag . }
+  optional { ?person dbpedia-owl:birthPlace <http://dbpedia.org/resource/Malaysia> . }
+  optional { <http://dbpedia.org/resource/Malaysia> dbpedia-owl:motto ?motto . }
+}
+limit 10
+
+select *
+where {
+  <http://dbpedia.org/resource/Malaysia> foaf:name ?name .
+  optional { <http://dbpedia.org/resource/Malaysia> dbpedia-owl:abstract ?abstract . filter langMatches(lang(?abstract), "en") . }
+  optional { <http://dbpedia.org/resource/Malaysia> foaf:depiction ?flag . }
+  optional { <http://dbpedia.org/resource/Malaysia> dbpedia-owl:motto ?motto . }
+  optional { <http://dbpedia.org/resource/Malaysia> dbpprop:capital ?_capital . ?_capital foaf:name ?capital . filter langMatches(lang(?capital), "en") . }
+}
+limit 10
+
+select *
+where {
+  <http://dbpedia.org/resource/Cambodia> foaf:name ?name .
+  optional { <http://dbpedia.org/resource/Cambodia> dbpedia-owl:abstract ?abstract . filter langMatches(lang(?abstract), "en") . }
+  optional { <http://dbpedia.org/resource/Cambodia> foaf:depiction ?flag . }
+  optional { <http://dbpedia.org/resource/Cambodia> dbpedia-owl:motto ?motto . }
+  optional { <http://dbpedia.org/resource/Cambodia> dbpprop:capital ?_capital . ?_capital foaf:name ?capital . filter langMatches(lang(?capital), "en") . }
+}
+limit 10
+
+select ?name ?comment ?linkFlag ?motto ?capital
+where {
+  <http://dbpedia.org/resource/Cambodia> foaf:name ?name .
+  optional { <http://dbpedia.org/resource/Cambodia> rdfs:comment ?comment . filter langMatches(lang(?comment), "en") . }
+  optional { <http://dbpedia.org/resource/Cambodia> foaf:depiction ?linkFlag . }
+  optional { <http://dbpedia.org/resource/Cambodia> dbpedia-owl:motto ?motto . }
+  optional { <http://dbpedia.org/resource/Cambodia> dbpprop:capital ?_capital . ?_capital foaf:name ?capital . filter langMatches(lang(?capital), "en") . }
+}
+limit 1
+
+# getting people from birthplace..
+select ?givenName ?surname ?shortDescription ?isPrimaryTopicOf
+where {
+  ?person dbpedia-owl:birthPlace <http://dbpedia.org/resource/Malaysia> .
+  ?person foaf:givenName ?givenName .
+  ?person foaf:surname ?surname .
+  ?person dbpprop:shortDescription ?shortDescription .
+  ?person foaf:isPrimaryTopicOf ?isPrimaryTopicOf
+}
+limit 100
+
+select ?givenName ?surname ?shortDescription ?isPrimaryTopicOf where { ?person dbpedia-owl:birthPlace <http://dbpedia.org/resource/Malaysia> . ?person foaf:givenName ?givenName . ?person foaf:surname ?surname . ?person dbpprop:shortDescription ?shortDescription . ?person foaf:isPrimaryTopicOf ?isPrimaryTopicOf }

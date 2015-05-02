@@ -1,0 +1,22 @@
+{
+  "name": "adb-lod-prototype",
+  "version": "0.0.1",
+  "authors": [
+    "Ryan Yacyshyn <ryan@pebbleroad.com>"
+  ],
+  "description": "demo showing how to link data between ADB and DBpedia..",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "5.4.3",
+    "handlebars": "~3.0.3",
+    "underscore": "~1.8.3"
+  }
+}

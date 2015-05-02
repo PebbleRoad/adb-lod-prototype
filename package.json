@@ -4,7 +4,7 @@
   "description": "adb linked-data prototype",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "supervisor -w app.coffee,routes ./app.coffee"
   },
   "repository": {
     "type": "git",
@@ -15,8 +15,16 @@
   "devDependencies": {
     "coffee-script": "^1.9.2",
     "csv": "^0.4.2",
-    "nimble": "0.0.2",
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-coffee": "^0.13.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "matchdep": "^0.3.0",
     "trim": "0.0.1",
     "underscore": "^1.8.3"
+  },
+  "dependencies": {
+    "express": "^4.12.3",
+    "jade": "^1.9.2"
   }
 }

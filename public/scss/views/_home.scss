@@ -1,0 +1,44 @@
+body {
+	background: $color-bg;
+}
+
+.country-list, .country-data {
+	display: none;
+}
+
+.country-list {
+	select { margin-bottom: 0; }
+}
+
+.country-capital {
+	font-size: 12px;
+	color: #999;
+}
+
+.dbpedia-data {
+	.country-header {
+		//
+	}
+	.country-name { 
+		float: left;
+		margin-left: 10px;
+	}
+	.flagUrl {
+		height: 42px;
+		float: left;
+		margin-top: 10px;
+	}
+}
+
+.people-birthplace {
+	-webkit-columns: 2 200px;
+	     -moz-columns: 2 200px;
+	          columns: 2 200px;
+
+	-webkit-column-gap: 20px; /* Chrome, Safari, Opera */
+	   -moz-column-gap: 20px; /* Firefox */
+	        column-gap: 20px;
+	span {
+		color: #999;
+	}
+}

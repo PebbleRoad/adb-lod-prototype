@@ -1,0 +1,113 @@
+extends layout
+
+block content
+  .row
+    .columns.small-12
+      h1 ADB Linked Data Demo
+  .row.country-list.panel
+    .columns.small-12.medium-6
+      select#country-select
+        option Select Country
+  .row.country-data
+    .columns.small-12
+      .dbpedia-data
+    .columns.small-12
+      h3 Stats from Asia Development Bank
+      table.adb-data(width="100%")
+        thead
+          tr
+            th Year
+            th Percent change (annual)
+            th Population Density
+            th Urban Population
+            th Labor Force (% change)
+            th Total Employed
+            th Total Unemployed
+            th Revenue &amp; Grants
+            th Electricity Production
+        tbody
+    .columns.small-12
+      h3 People's BirthPlace of Country
+      .people-birthplace
+
+
+  script#dbpedia-data(type="text/x-handlebars-template").
+    <div class="country-header clearfix">
+      <img class="flagUrl" src="{{flagUrl.value}}"/>
+      <div class="country-name">
+        <h2>{{name.value}}</h2>
+      </div>
+    </div>
+    <p class="country-capital">Capital: {{capital.value}}</p>
+    <p>{{comment.value}}</p>
+
+  script#select-option(type="text/x-handlebars-template").
+    <option>{{country}}</option>
+
+  script#adb-row(type="text/x-handlebars-template").
+    <tr>
+      <td><strong>{{year.value}}</strong></td>
+      <td>
+        {{#if populationPercentChange}}
+          {{populationPercentChange.value}}%
+        {{else}}
+          -
+        {{/if}}
+      </td>
+      <td>
+        {{#if populationDensity}}
+          {{populationDensity.value}}
+        {{else}}
+          -
+        {{/if}}
+      </td>
+      <td>
+        {{#if populationUrban}}
+          {{populationUrban.value}}
+        {{else}}
+          -
+        {{/if}}
+        </td>
+      <td>
+        {{#if laborforcePercentChange}}
+          {{laborforcePercentChange.value}}%
+        {{else}}
+          -
+        {{/if}}
+      </td>
+      <td>
+        {{#if employedTotal}}
+          {{employedTotal.value}}
+        {{else}}
+          -
+        {{/if}}
+      </td>
+      <td>
+        {{#if unemployedTotal}}
+          {{unemployedTotal.value}}
+        {{else}}
+          -
+        {{/if}}
+      </td>
+      <td>
+        {{#if revenueAndGrants}}
+          {{revenueAndGrants.value}}
+        {{else}}
+          -
+        {{/if}}
+      </td>
+      <td>
+        {{#if electricityProduction}}
+          {{electricityProduction.value}}
+        {{else}}
+          -
+        {{/if}}
+      </td>
+    </tr>
+
+  script#people-birthplace(type="text/x-handlebars-template").
+    <div>
+      <a href="{{isPrimaryTopicOf.value}}" target="_blank">{{givenName.value}} {{surname.value}}</a>
+      <span>({{shortDescription.value}})</span>
+    </div>
+
