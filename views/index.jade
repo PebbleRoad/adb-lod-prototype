@@ -11,6 +11,18 @@ block content
   .row.country-data
     .columns.small-12
       .dbpedia-data
+      #map-canvas
+    .columns.small-12
+      h3 Labor Force and Employment
+    .columns.small-12.medium-6
+      .labor-chart
+        h4 Total Employed / Unemployed
+        p Numbers are in thousands; Ending Dec 31.
+        canvas#laborForceChart(width="600" height="338")
+    .columns.small-12.medium-6
+      .labor-chart
+        h4 Percent Change in Labor Force
+        canvas#laborForceChartPercent(width="600" height="338")
     .columns.small-12
       h3 Stats from Asia Development Bank
       table.adb-data(width="100%")
@@ -28,6 +40,9 @@ block content
         tbody
     .columns.small-12
       h3 People's BirthPlace of Country
+    .columns.small-12.medium-4
+      input.people-search(type="text", placeholder="Search for People")
+    .columns.small-12
       .people-birthplace
 
 
@@ -106,8 +121,8 @@ block content
     </tr>
 
   script#people-birthplace(type="text/x-handlebars-template").
-    <div>
-      <a href="{{isPrimaryTopicOf.value}}" target="_blank">{{givenName.value}} {{surname.value}}</a>
+    <div class="person-container">
+      <a class="person" href="{{isPrimaryTopicOf.value}}" target="_blank">{{givenName.value}} {{surname.value}}</a>
       <span>({{shortDescription.value}})</span>
     </div>
 

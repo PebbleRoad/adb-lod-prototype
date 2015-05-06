@@ -1,0 +1,379 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix dbpprop: <http://dbpedia.org/property/> .
+@prefix adb: <http://demos.pebbleroad.com/adb/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://demos.pebbleroad.com/adb/Country/Philippines> owl:sameAs dbpedia:Philippines
+ ; adb:GovernmentFinanceFor
+     <http://demos.pebbleroad.com/adb/Country/Philippines/1988> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/1989> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/1990> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/1991> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/1992> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/1993> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/1994> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/1995> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/1996> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/1997> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/1998> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/1999> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2000> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2001> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2002> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2003> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2004> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2005> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2006> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2007> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2008> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2009> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2010> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2011> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2012> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2013> 
+ ; adb:EnergyFor
+     <http://demos.pebbleroad.com/adb/Country/Philippines/1988> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/1989> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/1990> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/1991> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/1992> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/1993> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/1994> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/1995> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/1996> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/1997> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/1998> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/1999> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2000> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2001> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2002> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2003> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2004> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2005> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2006> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2007> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2008> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2009> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2010> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2011> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2012> 
+ ; adb:LaborForceFor
+     <http://demos.pebbleroad.com/adb/Country/Philippines/1988> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/1989> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/1990> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/1991> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/1992> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/1993> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/1994> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/1995> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/1996> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/1997> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/1998> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/1999> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2000> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2001> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2002> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2003> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2004> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2005> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2006> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2007> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2008> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2009> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2010> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2011> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2012> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2013> 
+ ; adb:PopulationFor
+     <http://demos.pebbleroad.com/adb/Country/Philippines/1988> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/1989> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/1990> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/1991> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/1992> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/1993> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/1994> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/1995> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/1996> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/1997> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/1998> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/1999> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2000> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2001> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2002> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2003> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2004> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2005> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2006> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2007> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2008> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2009> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2010> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2011> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2012> 
+   , <http://demos.pebbleroad.com/adb/Country/Philippines/2013> 
+. 
+
+<http://demos.pebbleroad.com/adb/Country/Philippines/1988> adb:revenueAndGrants "112.861"^^xsd:float
+  ; adb:electricityProduction "24538"^^xsd:float
+  ; adb:employedTotal "21497"^^xsd:float
+  ; adb:unemployedTotal "1954"^^xsd:float
+  ; adb:laborforcePercentChange "2.5"^^xsd:float
+  ; adb:populationDensity "196"^^xsd:float
+  ; adb:populationUrban "2.38034"^^xsd:float
+  ; dbpprop:populationCensusYear "1988"^^xsd:int
+. 
+
+<http://demos.pebbleroad.com/adb/Country/Philippines/1989> adb:revenueAndGrants "152.41"^^xsd:float
+  ; adb:electricityProduction "25573"^^xsd:float
+  ; adb:employedTotal "21908.25"^^xsd:float
+  ; adb:unemployedTotal "2211.5"^^xsd:float
+  ; adb:laborforcePercentChange "2.86156"^^xsd:float
+  ; adb:populationDensity "200"^^xsd:float
+  ; adb:populationUrban "2.34273"^^xsd:float
+  ; dbpprop:populationCensusYear "1989"^^xsd:int
+. 
+
+<http://demos.pebbleroad.com/adb/Country/Philippines/1990> adb:revenueAndGrants "180.903"^^xsd:float
+  ; adb:electricityProduction "26327"^^xsd:float
+  ; adb:employedTotal "22211.66667"^^xsd:float
+  ; adb:unemployedTotal "2032"^^xsd:float
+  ; adb:laborforcePercentChange ".51376"^^xsd:float
+  ; adb:populationDensity "203.21748"^^xsd:float
+  ; adb:populationPercentChange "29804"^^xsd:float
+  ; adb:populationUrban "2.3275"^^xsd:float
+  ; dbpprop:populationCensusYear "1990"^^xsd:int
+. 
+
+<http://demos.pebbleroad.com/adb/Country/Philippines/1991> adb:revenueAndGrants "220.787"^^xsd:float
+  ; adb:electricityProduction "25649"^^xsd:float
+  ; adb:employedTotal "22914.5"^^xsd:float
+  ; adb:unemployedTotal "2716.5"^^xsd:float
+  ; adb:laborforcePercentChange "5.72246"^^xsd:float
+  ; adb:populationDensity "207.91749"^^xsd:float
+  ; adb:populationUrban "2.34"^^xsd:float
+  ; dbpprop:populationCensusYear "1991"^^xsd:int
+. 
+
+<http://demos.pebbleroad.com/adb/Country/Philippines/1992> adb:revenueAndGrants "242.715"^^xsd:float
+  ; adb:electricityProduction "25870"^^xsd:float
+  ; adb:employedTotal "23695.75"^^xsd:float
+  ; adb:unemployedTotal "2593.75"^^xsd:float
+  ; adb:laborforcePercentChange "2.56915"^^xsd:float
+  ; adb:populationDensity "212.72621"^^xsd:float
+  ; adb:populationUrban "2.34"^^xsd:float
+  ; dbpprop:populationCensusYear "1992"^^xsd:int
+. 
+
+<http://demos.pebbleroad.com/adb/Country/Philippines/1993> adb:revenueAndGrants "260.405"^^xsd:float
+  ; adb:electricityProduction "26579"^^xsd:float
+  ; adb:employedTotal "24382.25"^^xsd:float
+  ; adb:unemployedTotal "2496.75"^^xsd:float
+  ; adb:laborforcePercentChange "2.24234"^^xsd:float
+  ; adb:populationDensity "217.64614"^^xsd:float
+  ; adb:populationUrban "2.34"^^xsd:float
+  ; dbpprop:populationCensusYear "1993"^^xsd:int
+. 
+
+<http://demos.pebbleroad.com/adb/Country/Philippines/1994> adb:revenueAndGrants "336.16"^^xsd:float
+  ; adb:electricityProduction "30459"^^xsd:float
+  ; adb:employedTotal "25031.5"^^xsd:float
+  ; adb:unemployedTotal "2622.5"^^xsd:float
+  ; adb:laborforcePercentChange "2.88329"^^xsd:float
+  ; adb:populationDensity "222.67986"^^xsd:float
+  ; adb:populationUrban "2.34"^^xsd:float
+  ; dbpprop:populationCensusYear "1994"^^xsd:int
+. 
+
+<http://demos.pebbleroad.com/adb/Country/Philippines/1995> adb:revenueAndGrants "361.22"^^xsd:float
+  ; adb:electricityProduction "33554"^^xsd:float
+  ; adb:employedTotal "25676.5"^^xsd:float
+  ; adb:unemployedTotal "2703.5"^^xsd:float
+  ; adb:laborforcePercentChange "2.6253"^^xsd:float
+  ; adb:populationDensity "227.83"^^xsd:float
+  ; adb:populationPercentChange "36949"^^xsd:float
+  ; adb:populationUrban "2.34"^^xsd:float
+  ; dbpprop:populationCensusYear "1995"^^xsd:int
+. 
+
+<http://demos.pebbleroad.com/adb/Country/Philippines/1996> adb:revenueAndGrants "410.449"^^xsd:float
+  ; adb:electricityProduction "36707"^^xsd:float
+  ; adb:employedTotal "27186.5"^^xsd:float
+  ; adb:unemployedTotal "2546.25"^^xsd:float
+  ; adb:laborforcePercentChange "4.76656"^^xsd:float
+  ; adb:populationDensity "233.17"^^xsd:float
+  ; adb:populationUrban "2.34"^^xsd:float
+  ; dbpprop:populationCensusYear "1996"^^xsd:int
+. 
+
+<http://demos.pebbleroad.com/adb/Country/Philippines/1997> adb:revenueAndGrants "471.843"^^xsd:float
+  ; adb:electricityProduction "39796.577"^^xsd:float
+  ; adb:employedTotal "26364.75"^^xsd:float
+  ; adb:unemployedTotal "2536.75"^^xsd:float
+  ; adb:laborforcePercentChange "-2.79574"^^xsd:float
+  ; adb:populationDensity "238.5"^^xsd:float
+  ; adb:populationUrban "2.34"^^xsd:float
+  ; dbpprop:populationCensusYear "1997"^^xsd:int
+. 
+
+<http://demos.pebbleroad.com/adb/Country/Philippines/1998> adb:revenueAndGrants "462.515"^^xsd:float
+  ; adb:electricityProduction "41578.105"^^xsd:float
+  ; adb:employedTotal "26631"^^xsd:float
+  ; adb:unemployedTotal "3042.75"^^xsd:float
+  ; adb:laborforcePercentChange "2.67201"^^xsd:float
+  ; adb:populationDensity "243.82667"^^xsd:float
+  ; adb:populationUrban "2.34"^^xsd:float
+  ; dbpprop:populationCensusYear "1998"^^xsd:int
+. 
+
+<http://demos.pebbleroad.com/adb/Country/Philippines/1999> adb:revenueAndGrants "478.502"^^xsd:float
+  ; adb:electricityProduction "41431.675"^^xsd:float
+  ; adb:employedTotal "27741.5"^^xsd:float
+  ; adb:unemployedTotal "3017"^^xsd:float
+  ; adb:laborforcePercentChange "3.65559"^^xsd:float
+  ; adb:populationDensity "250"^^xsd:float
+  ; adb:populationUrban "2.34"^^xsd:float
+  ; dbpprop:populationCensusYear "1999"^^xsd:int
+. 
+
+<http://demos.pebbleroad.com/adb/Country/Philippines/2000> adb:revenueAndGrants "514.762"^^xsd:float
+  ; adb:electricityProduction "45290"^^xsd:float
+  ; adb:employedTotal "27452.5"^^xsd:float
+  ; adb:unemployedTotal "3458.75"^^xsd:float
+  ; adb:laborforcePercentChange ".49661"^^xsd:float
+  ; adb:populationDensity "255.90333"^^xsd:float
+  ; adb:populationPercentChange "44360"^^xsd:float
+  ; adb:populationUrban "2.34"^^xsd:float
+  ; dbpprop:populationCensusYear "2000"^^xsd:int
+. 
+
+<http://demos.pebbleroad.com/adb/Country/Philippines/2001> adb:revenueAndGrants "567.481"^^xsd:float
+  ; adb:electricityProduction "47049.042"^^xsd:float
+  ; adb:employedTotal "29155.5"^^xsd:float
+  ; adb:unemployedTotal "3653.25"^^xsd:float
+  ; adb:laborforcePercentChange "6.13854"^^xsd:float
+  ; adb:populationDensity "261.18"^^xsd:float
+  ; adb:populationUrban "2.06198"^^xsd:float
+  ; dbpprop:populationCensusYear "2001"^^xsd:int
+. 
+
+<http://demos.pebbleroad.com/adb/Country/Philippines/2002> adb:revenueAndGrants "578.406"^^xsd:float
+  ; adb:electricityProduction "48467.43632"^^xsd:float
+  ; adb:employedTotal "30061.5"^^xsd:float
+  ; adb:unemployedTotal "3874"^^xsd:float
+  ; adb:laborforcePercentChange "3.4343"^^xsd:float
+  ; adb:populationDensity "266.45333"^^xsd:float
+  ; adb:populationUrban "2.01904"^^xsd:float
+  ; dbpprop:populationCensusYear "2002"^^xsd:int
+. 
+
+<http://demos.pebbleroad.com/adb/Country/Philippines/2003> adb:revenueAndGrants "639.737"^^xsd:float
+  ; adb:electricityProduction "52940.5369"^^xsd:float
+  ; adb:employedTotal "30635.25"^^xsd:float
+  ; adb:unemployedTotal "3935.5"^^xsd:float
+  ; adb:laborforcePercentChange "1.87193"^^xsd:float
+  ; adb:populationDensity "271.72667"^^xsd:float
+  ; adb:populationUrban "1.97908"^^xsd:float
+  ; dbpprop:populationCensusYear "2003"^^xsd:int
+. 
+
+<http://demos.pebbleroad.com/adb/Country/Philippines/2004> adb:revenueAndGrants "706.718"^^xsd:float
+  ; adb:electricityProduction "55957.2"^^xsd:float
+  ; adb:employedTotal "31613.25"^^xsd:float
+  ; adb:unemployedTotal "4249"^^xsd:float
+  ; adb:laborforcePercentChange "3.73582"^^xsd:float
+  ; adb:populationDensity "277.01667"^^xsd:float
+  ; adb:populationUrban "1.94681"^^xsd:float
+  ; dbpprop:populationCensusYear "2004"^^xsd:int
+. 
+
+<http://demos.pebbleroad.com/adb/Country/Philippines/2005> adb:revenueAndGrants "816.159"^^xsd:float
+  ; adb:electricityProduction "56567.74028"^^xsd:float
+  ; adb:employedTotal "32189.17267"^^xsd:float
+  ; adb:unemployedTotal "2749.15433"^^xsd:float
+  ; adb:laborforcePercentChange ".8449"^^xsd:float
+  ; adb:populationDensity "282.29"^^xsd:float
+  ; adb:populationPercentChange "51973"^^xsd:float
+  ; adb:populationUrban "1.90362"^^xsd:float
+  ; dbpprop:populationCensusYear "2005"^^xsd:int
+. 
+
+<http://demos.pebbleroad.com/adb/Country/Philippines/2006> adb:revenueAndGrants "979.638"^^xsd:float
+  ; adb:electricityProduction "56784.1297"^^xsd:float
+  ; adb:employedTotal "32635.447"^^xsd:float
+  ; adb:unemployedTotal "2828.6895"^^xsd:float
+  ; adb:laborforcePercentChange "1.50497"^^xsd:float
+  ; adb:populationDensity "287.56333"^^xsd:float
+  ; adb:populationUrban "1.86806"^^xsd:float
+  ; dbpprop:populationCensusYear "2006"^^xsd:int
+. 
+
+<http://demos.pebbleroad.com/adb/Country/Philippines/2007> adb:revenueAndGrants "1136.56"^^xsd:float
+  ; adb:electricityProduction "59611.78791"^^xsd:float
+  ; adb:employedTotal "33560"^^xsd:float
+  ; adb:unemployedTotal "2653"^^xsd:float
+  ; adb:laborforcePercentChange "2.11161"^^xsd:float
+  ; adb:populationDensity "292.83667"^^xsd:float
+  ; adb:populationUrban "1.8338"^^xsd:float
+  ; dbpprop:populationCensusYear "2007"^^xsd:int
+. 
+
+<http://demos.pebbleroad.com/adb/Country/Philippines/2008> adb:revenueAndGrants "1202.905"^^xsd:float
+  ; adb:electricityProduction "60820.9853"^^xsd:float
+  ; adb:employedTotal "34089"^^xsd:float
+  ; adb:unemployedTotal "2716"^^xsd:float
+  ; adb:laborforcePercentChange "1.6"^^xsd:float
+  ; adb:populationDensity "298.12667"^^xsd:float
+  ; adb:populationUrban "1.80647"^^xsd:float
+  ; dbpprop:populationCensusYear "2008"^^xsd:int
+. 
+
+<http://demos.pebbleroad.com/adb/Country/Philippines/2009> adb:revenueAndGrants "1123.211"^^xsd:float
+  ; adb:electricityProduction "61934.43206"^^xsd:float
+  ; adb:employedTotal "35062"^^xsd:float
+  ; adb:unemployedTotal "2831"^^xsd:float
+  ; adb:laborforcePercentChange "3"^^xsd:float
+  ; adb:populationDensity "303.4"^^xsd:float
+  ; adb:populationUrban "1.76882"^^xsd:float
+  ; dbpprop:populationCensusYear "2009"^^xsd:int
+. 
+
+<http://demos.pebbleroad.com/adb/Country/Philippines/2010> adb:revenueAndGrants "1207.926"^^xsd:float
+  ; adb:electricityProduction "67742.75906"^^xsd:float
+  ; adb:employedTotal "36035"^^xsd:float
+  ; adb:unemployedTotal "2859"^^xsd:float
+  ; adb:laborforcePercentChange "2.6"^^xsd:float
+  ; adb:populationDensity "308.67333"^^xsd:float
+  ; adb:populationUrban "1.73808"^^xsd:float
+  ; dbpprop:populationCensusYear "2010"^^xsd:int
+. 
+
+<http://demos.pebbleroad.com/adb/Country/Philippines/2011> adb:revenueAndGrants "1359.942"^^xsd:float
+  ; adb:electricityProduction "69175.6498"^^xsd:float
+  ; adb:employedTotal "37191"^^xsd:float
+  ; adb:unemployedTotal "2814"^^xsd:float
+  ; adb:laborforcePercentChange "2.85391"^^xsd:float
+  ; adb:populationDensity "313.95"^^xsd:float
+  ; adb:populationUrban "1.70947"^^xsd:float
+  ; dbpprop:populationCensusYear "2011"^^xsd:int
+. 
+
+<http://demos.pebbleroad.com/adb/Country/Philippines/2012> adb:revenueAndGrants "1534.932"^^xsd:float
+  ; adb:electricityProduction "72922"^^xsd:float
+  ; adb:employedTotal "37607"^^xsd:float
+  ; adb:unemployedTotal "2825"^^xsd:float
+  ; adb:laborforcePercentChange "1.06989"^^xsd:float
+  ; adb:populationDensity "319.23333"^^xsd:float
+  ; adb:populationUrban "1.68286"^^xsd:float
+  ; dbpprop:populationCensusYear "2012"^^xsd:int
+. 
+
+<http://demos.pebbleroad.com/adb/Country/Philippines/2013> adb:revenueAndGrants "1716.093"^^xsd:float
+  ; adb:employedTotal "38117.71425"^^xsd:float
+  ; adb:unemployedTotal "2904.635"^^xsd:float
+  ; adb:laborforcePercentChange "1.4601"^^xsd:float
+  ; adb:populationDensity "324.66667"^^xsd:float
+  ; adb:populationUrban "1.7"^^xsd:float
+  ; dbpprop:populationCensusYear "2013"^^xsd:int
+. 
+

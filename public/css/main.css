@@ -46,3 +46,15 @@ body {
 .people-birthplace span {
   color: #999;
 }
+
+/* line 46, ../scss/views/_home.scss */
+#map-canvas {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+/* line 52, ../scss/views/_home.scss */
+.labor-chart {
+  width: 100%;
+}
