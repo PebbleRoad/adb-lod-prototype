@@ -5,6 +5,8 @@ $ ->
   ciaEndpoint = 'http://wifo5-03.informatik.uni-mannheim.de/factbook/sparql/'
 
   countries = []
+  lineChart = null
+  lineChartPercent = null
 
   init = ->
     $('.country-list select').on 'change', (e) ->
@@ -68,6 +70,11 @@ $ ->
 
     ciaUrl = 'http://wifo5-04.informatik.uni-mannheim.de/factbook/resource/' + country
 
+
+    lineChart.destroy() if lineChart?
+    lineChartPercent.destroy() if lineChartPercent?
+    $('.country-data').hide()
+
     dbpediaURI = _.find countries, (c) ->
       return new RegExp(country, "i").test(c)
 
@@ -96,12 +103,12 @@ $ ->
         headers: { Accept: 'application/json' }
         data: { query: querydbpediaData }
       }),
-      $.ajax({
-        method: 'GET'
-        url: dbpediaEndpoint
-        headers: { Accept: 'application/json' }
-        data: { query: queryPeopleBirthPlace }
-      }),
+      # $.ajax({
+      #   method: 'GET'
+      #   url: dbpediaEndpoint
+      #   headers: { Accept: 'application/json' }
+      #   data: { query: queryPeopleBirthPlace }
+      # }),
       # $.ajax({
       #   method: 'GET'
       #   url: ciaEndpoint
@@ -136,10 +143,13 @@ $ ->
       template = Handlebars.compile(source)
       AdbData[0].results.bindings.forEach (item) ->
         # console.log 'item >>', item
-        years.push parseInt item.year.value
-        employedTotal.push parseFloat(item.employedTotal.value).toFixed(1)
-        unemployedTotal.push parseFloat(item.unemployedTotal.value).toFixed(1)
-        lbfChange.push parseFloat(item.laborforcePercentChange.value).toFixed(1)
+        
+        if (item.employedTotal? and item.unemployedTotal? and item.laborforcePercentChange?)
+          years.push parseInt item.year.value
+          employedTotal.push parseFloat(item.employedTotal.value).toFixed(1)
+          unemployedTotal.push parseFloat(item.unemployedTotal.value).toFixed(1)
+          lbfChange.push parseFloat(item.laborforcePercentChange.value).toFixed(1)
+
         html += template item
       $('.adb-data tbody').html html
 
@@ -201,19 +211,19 @@ $ ->
       })
 
       # people's birthplace..
-      console.log peopleBirthPlace
-      peopleBirthPlaceHtml = ''
-      birthPlaceTemplate = Handlebars.compile $('#people-birthplace').html()
-      peopleBirthPlace[0].results.bindings.forEach (item) ->
-        peopleBirthPlaceHtml += birthPlaceTemplate item
-      $('.people-birthplace').html peopleBirthPlaceHtml
+      # console.log peopleBirthPlace
+      # peopleBirthPlaceHtml = ''
+      # birthPlaceTemplate = Handlebars.compile $('#people-birthplace').html()
+      # peopleBirthPlace[0].results.bindings.forEach (item) ->
+      #   peopleBirthPlaceHtml += birthPlaceTemplate item
+      # $('.people-birthplace').html peopleBirthPlaceHtml
 
 
-      $('.people-search').instaFilta {
-        targets: '.person',
-        sections: '.person-container'
-        # beginsWith: true
-      }
+      # $('.people-search').instaFilta {
+      #   targets: '.person',
+      #   sections: '.person-container'
+      #   # beginsWith: true
+      # }
 
       # console.log 'ciaData', ciaData
 

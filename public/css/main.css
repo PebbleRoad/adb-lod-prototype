@@ -31,7 +31,12 @@ body {
   margin-top: 10px;
 }
 
-/* line 33, ../scss/views/_home.scss */
+/* line 32, ../scss/views/_home.scss */
+.birthplace-container {
+  display: none;
+}
+
+/* line 35, ../scss/views/_home.scss */
 .people-birthplace {
   -webkit-columns: 2 200px;
   -moz-columns: 2 200px;
@@ -42,19 +47,19 @@ body {
   /* Firefox */
   column-gap: 20px;
 }
-/* line 41, ../scss/views/_home.scss */
+/* line 43, ../scss/views/_home.scss */
 .people-birthplace span {
   color: #999;
 }
 
-/* line 46, ../scss/views/_home.scss */
+/* line 48, ../scss/views/_home.scss */
 #map-canvas {
   width: 100%;
   height: 300px;
   margin-bottom: 20px;
 }
 
-/* line 52, ../scss/views/_home.scss */
+/* line 54, ../scss/views/_home.scss */
 .labor-chart {
   width: 100%;
 }

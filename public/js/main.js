@@ -1,10 +1,12 @@
 $(function() {
-  var baseEndpoint, ciaEndpoint, countries, dbpediaEndpoint, getCountries, init, loadCountryData;
+  var baseEndpoint, ciaEndpoint, countries, dbpediaEndpoint, getCountries, init, lineChart, lineChartPercent, loadCountryData;
   console.log('ready..');
   baseEndpoint = 'http://192.168.2.10:8890/sparql/';
   dbpediaEndpoint = 'http://dbpedia.org/sparql/';
   ciaEndpoint = 'http://wifo5-03.informatik.uni-mannheim.de/factbook/sparql/';
   countries = [];
+  lineChart = null;
+  lineChartPercent = null;
   init = function() {
     $('.country-list select').on('change', function(e) {
       return loadCountryData($(this).val());
@@ -73,6 +75,13 @@ $(function() {
     var ciaUrl, dbpediaURI, queryAdbData, queryCiaData, queryLabels, queryPeopleBirthPlace, querydbpediaData;
     console.log('country:', country);
     ciaUrl = 'http://wifo5-04.informatik.uni-mannheim.de/factbook/resource/' + country;
+    if (lineChart != null) {
+      lineChart.destroy();
+    }
+    if (lineChartPercent != null) {
+      lineChartPercent.destroy();
+    }
+    $('.country-data').hide();
     dbpediaURI = _.find(countries, function(c) {
       return new RegExp(country, "i").test(c);
     });
@@ -99,17 +108,8 @@ $(function() {
       data: {
         query: querydbpediaData
       }
-    }), $.ajax({
-      method: 'GET',
-      url: dbpediaEndpoint,
-      headers: {
-        Accept: 'application/json'
-      },
-      data: {
-        query: queryPeopleBirthPlace
-      }
     })).then(function(AdbData, dbpediaData, peopleBirthPlace) {
-      var birthPlaceTemplate, ctx, data, dbpediaTemplate, employedTotal, html, lat, latLong, lbfChange, lineChart, lineChartPercent, long, mapOptions, peopleBirthPlaceHtml, source, template, unemployedTotal, years;
+      var ctx, data, dbpediaTemplate, employedTotal, html, lat, latLong, lbfChange, long, mapOptions, source, template, unemployedTotal, years;
       $('.country-data').show();
       console.log(dbpediaData);
       dbpediaTemplate = Handlebars.compile($('#dbpedia-data').html());
@@ -132,10 +132,12 @@ $(function() {
       source = $('#adb-row').html();
       template = Handlebars.compile(source);
       AdbData[0].results.bindings.forEach(function(item) {
-        years.push(parseInt(item.year.value));
-        employedTotal.push(parseFloat(item.employedTotal.value).toFixed(1));
-        unemployedTotal.push(parseFloat(item.unemployedTotal.value).toFixed(1));
-        lbfChange.push(parseFloat(item.laborforcePercentChange.value).toFixed(1));
+        if ((item.employedTotal != null) && (item.unemployedTotal != null) && (item.laborforcePercentChange != null)) {
+          years.push(parseInt(item.year.value));
+          employedTotal.push(parseFloat(item.employedTotal.value).toFixed(1));
+          unemployedTotal.push(parseFloat(item.unemployedTotal.value).toFixed(1));
+          lbfChange.push(parseFloat(item.laborforcePercentChange.value).toFixed(1));
+        }
         return html += template(item);
       });
       $('.adb-data tbody').html(html);
@@ -188,22 +190,11 @@ $(function() {
           }
         ]
       };
-      lineChartPercent = new Chart(ctx).Line(data, {
+      return lineChartPercent = new Chart(ctx).Line(data, {
         responsive: true,
         animation: false,
         showScale: true,
         pointHitDetectionRadius: 10
-      });
-      console.log(peopleBirthPlace);
-      peopleBirthPlaceHtml = '';
-      birthPlaceTemplate = Handlebars.compile($('#people-birthplace').html());
-      peopleBirthPlace[0].results.bindings.forEach(function(item) {
-        return peopleBirthPlaceHtml += birthPlaceTemplate(item);
-      });
-      $('.people-birthplace').html(peopleBirthPlaceHtml);
-      return $('.people-search').instaFilta({
-        targets: '.person',
-        sections: '.person-container'
       });
     });
   };

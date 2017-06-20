@@ -22,6 +22,7 @@ block content
     .columns.small-12.medium-6
       .labor-chart
         h4 Percent Change in Labor Force
+        p Ending Dec 31.
         canvas#laborForceChartPercent(width="600" height="338")
     .columns.small-12
       h3 Stats from Asia Development Bank
@@ -29,20 +30,20 @@ block content
         thead
           tr
             th Year
-            th Percent change (annual)
-            th Population Density
-            th Urban Population
+            //- th Percent change (annual)
+            //- th Population Density
+            //- th Urban Population
             th Labor Force (% change)
             th Total Employed
             th Total Unemployed
-            th Revenue &amp; Grants
-            th Electricity Production
+            //- th Revenue &amp; Grants
+            //- th Electricity Production
         tbody
-    .columns.small-12
+    .columns.small-12.birthplace-container
       h3 People's BirthPlace of Country
-    .columns.small-12.medium-4
+    .columns.small-12.medium-4.birthplace-container
       input.people-search(type="text", placeholder="Search for People")
-    .columns.small-12
+    .columns.small-12.birthplace-container
       .people-birthplace
 
 
@@ -63,27 +64,6 @@ block content
     <tr>
       <td><strong>{{year.value}}</strong></td>
       <td>
-        {{#if populationPercentChange}}
-          {{populationPercentChange.value}}%
-        {{else}}
-          -
-        {{/if}}
-      </td>
-      <td>
-        {{#if populationDensity}}
-          {{populationDensity.value}}
-        {{else}}
-          -
-        {{/if}}
-      </td>
-      <td>
-        {{#if populationUrban}}
-          {{populationUrban.value}}
-        {{else}}
-          -
-        {{/if}}
-        </td>
-      <td>
         {{#if laborforcePercentChange}}
           {{laborforcePercentChange.value}}%
         {{else}}
@@ -100,20 +80,6 @@ block content
       <td>
         {{#if unemployedTotal}}
           {{unemployedTotal.value}}
-        {{else}}
-          -
-        {{/if}}
-      </td>
-      <td>
-        {{#if revenueAndGrants}}
-          {{revenueAndGrants.value}}
-        {{else}}
-          -
-        {{/if}}
-      </td>
-      <td>
-        {{#if electricityProduction}}
-          {{electricityProduction.value}}
         {{else}}
           -
         {{/if}}

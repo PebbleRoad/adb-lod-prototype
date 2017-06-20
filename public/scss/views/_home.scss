@@ -29,7 +29,9 @@ body {
 		margin-top: 10px;
 	}
 }
-
+.birthplace-container {
+	display: none;
+}
 .people-birthplace {
 	-webkit-columns: 2 200px;
 	     -moz-columns: 2 200px;
